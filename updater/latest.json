@@ -1,11 +1,11 @@
 {
-  "pub_date": "2026-09-06T22:06:50.6545087Z",
+  "pub_date": "2026-09-06T22:35:09.2496725Z",
+  "notes": "Landing-Feinschliff: Nav ohne Dokumentation, App-Mockup mit CallPanel/Profil-Header; Icons jetzt via tauri icon (valides ICO, Square-Logos) — Taskleisten-Icon-Fix (v0.1.10)",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.1.9/Schisscord_0.1.9_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbnpnaUsxZGlyWDhPWGU4dlg3V2dBb2lTQXJoN1BGUXRJcHBJOWU2R255V25MU1JQMjNJK3BZeDBCS1RHQ1lrVWpFaUMyblJmZjZORVRWTHdIMHQ0a1FZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NzMyNDAxCWZpbGU6U2NoaXNzY29yZF8wLjEuOV94NjQtc2V0dXAuZXhlCi9uZ3VTNmVwN0tPYkJUWG9xNTFnK3c3cnU4eHM3d1dvbTVVQmFEVGluTURKQ0NBdjMzeTN0cmxFTGk5cVNwNHlKWDNKZVl3UU1YdkVVVTFRRDJZTEFRPT0K"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbjFLTGN4Wk40bEU4d05xVGdNbjk5cGY1cXJjZmQ3L1Z4cWFhS1dqTE92UGpHMVFPNXc0bnhVWGNnOVZPcDZDT2VzTjBsQ1h3Mm9uWUVhMFYvc2F2eVFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NzM0MDkxCWZpbGU6U2NoaXNzY29yZF8wLjEuMTBfeDY0LXNldHVwLmV4ZQpCekgya1JHR0dGYTVOQnphc2pjTlhRRFExVTMrekpaMUVVN2wzUXVCcVJObUM5NkVWYmIzKzNiZ1lGUjQ5RjFIc0VIOFozYUVYeThJMENmOWtNTlRCZz09Cg==",
+      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.1.10/Schisscord_0.1.10_x64-setup.exe"
     }
   },
-  "notes": "Neues Design: Dark Light-Brown Theme, Kackhaufen-Logo fuer Web+Desktop, Landing im ZCode-Stil mit App-Mockup und /changelog-Seite; Release-Notes aus Commit-Message (v0.1.9)",
-  "version": "0.1.9"
+  "version": "0.1.10"
 }
