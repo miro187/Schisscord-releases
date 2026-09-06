@@ -1,11 +1,11 @@
 {
-  "version": "0.1.8",
+  "pub_date": "2026-09-06T22:06:50.6545087Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.1.8/Schisscord_0.1.8_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbjlsRks3SzF5NUN3V2ZUVVozSy96b3J1K1JaMDBqSm1rZmxwTFNNZFVHRVFqVkNJek5ydHhIRTdDTEtyOFZURVdtK3VKOFIzQmE4eE9tVWVjNE9jeWc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NzMwMDM5CWZpbGU6U2NoaXNzY29yZF8wLjEuOF94NjQtc2V0dXAuZXhlCkpkK0JIc1NVQ2duc3pkZ2ZCTWkzNEo4N3hjTkh5NG1hSjZ0NjAwRTMwTkd2dkhWWlIzZzVrcjU4WDRUMDk1QUM3NnVkd21Qam9USzBYMjNScDlySENnPT0K"
+      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.1.9/Schisscord_0.1.9_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbnpnaUsxZGlyWDhPWGU4dlg3V2dBb2lTQXJoN1BGUXRJcHBJOWU2R255V25MU1JQMjNJK3BZeDBCS1RHQ1lrVWpFaUMyblJmZjZORVRWTHdIMHQ0a1FZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NzMyNDAxCWZpbGU6U2NoaXNzY29yZF8wLjEuOV94NjQtc2V0dXAuZXhlCi9uZ3VTNmVwN0tPYkJUWG9xNTFnK3c3cnU4eHM3d1dvbTVVQmFEVGluTURKQ0NBdjMzeTN0cmxFTGk5cVNwNHlKWDNKZVl3UU1YdkVVVTFRRDJZTEFRPT0K"
     }
   },
-  "notes": "Schisscord Desktop v0.1.8 für Windows.",
-  "pub_date": "2026-09-06T21:27:43.5094716Z"
+  "notes": "Neues Design: Dark Light-Brown Theme, Kackhaufen-Logo fuer Web+Desktop, Landing im ZCode-Stil mit App-Mockup und /changelog-Seite; Release-Notes aus Commit-Message (v0.1.9)",
+  "version": "0.1.9"
 }
