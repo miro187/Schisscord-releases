@@ -1,11 +1,11 @@
 {
-  "pub_date": "2026-09-06T16:28:02.6025024Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.1.2/Schisscord_0.1.2_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbjVMOEVPYjZYbkRFMTlDSzdza3pieU1ERzgweHo4UUNmU3c3VWxMRUtmc0gvdURLY29zeGNoU2QybmpTM3BtZVR5SnV4bHk5UGtiK0lMY2daKy8raHc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NzEyMDc0CWZpbGU6U2NoaXNzY29yZF8wLjEuMl94NjQtc2V0dXAuZXhlCmV6amFDZWNSTUhhcXd3Mnp5b3k5WTJsMzFyRnEvNFBwaXVrNHpFN2toSFJGemdONXFEbGxRTmFhUGltQVV1VUYyazloQ0J1QUpFbEU0ck02SDkwV0RnPT0K"
+      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.1.3/Schisscord_0.1.3_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbjNTZnh4S0Q4VnRXYW1aTWx5QUlkaDV0VWJncW04YUdHcVFXTW82azROU1NjeUR1N09GRFdNV3VuVDg4THY3aXFYQjNGMzVWNmNncjVDUFpvRXEzeGdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NzEzNTAxCWZpbGU6U2NoaXNzY29yZF8wLjEuM194NjQtc2V0dXAuZXhlCmtqM1o0dnkwaEZvL1hxZTQwbXkxR0xYNUgzbVNVRnVsMGpJT2o1SysreUFIVTdMd2NGK1gxTlB2cEZMenU3b0liblVic3FTb2h3Rm9sa01xdkkxTUFnPT0K"
     }
   },
-  "notes": "Schisscord Desktop v0.1.2 für Windows.",
-  "version": "0.1.2"
+  "notes": "Schisscord Desktop v0.1.3 für Windows.",
+  "version": "0.1.3",
+  "pub_date": "2026-09-06T16:51:49.0572905Z"
 }
