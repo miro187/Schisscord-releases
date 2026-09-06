@@ -1,0 +1,11 @@
+{
+  "pub_date": "2026-09-06T16:13:45.1988495Z",
+  "version": "0.1.1",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbnl3ZTIrZmlaVHprckdQOCt5UUtSbkw2dE9HQ1BUMlYrU1E1c29BbEEvd3F0Z211c3hhSW5tdzBGc01Vek9rOVgvTTcrYmxSQm5WU0hvUmo2S09HNVFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NzExMjE3CWZpbGU6U2NoaXNzY29yZF8wLjEuMV94NjQtc2V0dXAuZXhlCkYzcnBMSWJEdWpzT0MvcFpZWkM2bEhQOXo5ZmtHb2FXSTI1UlRadDBxMVowUUhLWk9YSkh2WnB3Uis3WW9OUlF6VmZnR01JbVM0czBKNVVFWG91QURRPT0K",
+      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.1.1/Schisscord_0.1.1_x64-setup.exe"
+    }
+  },
+  "notes": "Schisscord Desktop v0.1.1 für Windows."
+}
