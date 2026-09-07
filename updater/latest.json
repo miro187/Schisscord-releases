@@ -1,11 +1,11 @@
 {
-  "pub_date": "2026-09-07T15:46:32.8883111Z",
-  "notes": "v0.2.3: Verbindungs-Aufbau massiv beschleunigt — ICE-Kandidaten direkt im Offer/Answer (2 Relay-Roundtrips statt ~25 Einzel-Nachrichten), tote Relays nach 3 Fehlschlaegen automatisch uebergangen, Relays werden beim Start vorverbunden",
+  "pub_date": "2026-09-07T16:17:10.3118001Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbnkveVByVGhRTXZoRVRMU2s0Uit2TE1PL0pMOHRNemFTYUtuSTQzelJtN085dnIzaWdQaTI1SmJINEt4TmxrQ2FIc0tEVFpQcXBvTXNNYWN5WUxIVlFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4Nzk1OTg0CWZpbGU6U2NoaXNzY29yZF8wLjIuM194NjQtc2V0dXAuZXhlCll2VFJPZnZrVVl0cVJYeWlGVjA4UWZoRlFRemNsWEsxSm9kT0o2aFZZNWFaWEdlZ2hBRVNFU3NNd0ZvZHNjVjFqY0FJcW9wS1NOU2kyK3d0VVlXT0NBPT0K",
-      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.2.3/Schisscord_0.2.3_x64-setup.exe"
+      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.2.4/Schisscord_0.2.4_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbnl0UGU4YzlKVzQ0VnorbVFlUHpmSkhYUmc1QkJFL1JmUFR6ZE51dE9KRmtHdlM1cVUydXo2Z0ZFMGdtcGxyM24rOERMV3J3VFhnQ1FvZzJOQTZQRmdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4Nzk3ODIwCWZpbGU6U2NoaXNzY29yZF8wLjIuNF94NjQtc2V0dXAuZXhlCjFDR0MrMzcyUVZXT2NpTWZzbGVVL0cvL2pWbWR4YzhNT1FUWTBmTkRmMXBoaitDa2txeSsweWE0R1cveTMzajZSc3hSVUIwYnN3NG9wNTJza0QxUURBPT0K"
     }
   },
-  "version": "0.2.3"
+  "version": "0.2.4",
+  "notes": "v0.2.4: Screen-Share-Ansicht neu — eigener Stream sichtbar (Vorschau + DU-Badge + Stoppen-Button), Auswahl-Leiste mit allen Streams (eigen + Freunde gleichzeitig), Ready-Overlay statt schwarzem Bild beim Aufbau, Minimieren-Leiste"
 }
