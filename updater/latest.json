@@ -1,11 +1,11 @@
 {
-  "notes": "v0.2.2: Mikrofon-ausgefallen-Fix — alte Receiver-Handler abklemmen, Flag zuruecksetzen sobald Ton empfangen wird",
-  "pub_date": "2026-09-07T15:11:23.0902263Z",
+  "pub_date": "2026-09-07T15:46:32.8883111Z",
+  "notes": "v0.2.3: Verbindungs-Aufbau massiv beschleunigt — ICE-Kandidaten direkt im Offer/Answer (2 Relay-Roundtrips statt ~25 Einzel-Nachrichten), tote Relays nach 3 Fehlschlaegen automatisch uebergangen, Relays werden beim Start vorverbunden",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.2.2/Schisscord_0.2.2_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbnprTEVyZXpHcGRremNUN3VMMGtHWGIrU05zQ0s5T0ovWmg3YWJnS1h5L3VNdHJGV3VTQWNvbExFLzRaaWpSVHFsOW1kSExLczZHVzBoZGhybEpTdXdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NzkzODcyCWZpbGU6U2NoaXNzY29yZF8wLjIuMl94NjQtc2V0dXAuZXhlCjBwdHQrV3BEMEczRWFjaUYyK2ZYek5EL0YwSW4zNDluelZ5bU1LL1dEWEhFdHJzSFJQT3BKSGdFaWRTcWF6LzJBcUk3cGtRUFBvRklpSkluZlFISkFBPT0K"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbnkveVByVGhRTXZoRVRMU2s0Uit2TE1PL0pMOHRNemFTYUtuSTQzelJtN085dnIzaWdQaTI1SmJINEt4TmxrQ2FIc0tEVFpQcXBvTXNNYWN5WUxIVlFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4Nzk1OTg0CWZpbGU6U2NoaXNzY29yZF8wLjIuM194NjQtc2V0dXAuZXhlCll2VFJPZnZrVVl0cVJYeWlGVjA4UWZoRlFRemNsWEsxSm9kT0o2aFZZNWFaWEdlZ2hBRVNFU3NNd0ZvZHNjVjFqY0FJcW9wS1NOU2kyK3d0VVlXT0NBPT0K",
+      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.2.3/Schisscord_0.2.3_x64-setup.exe"
     }
   },
-  "version": "0.2.2"
+  "version": "0.2.3"
 }
