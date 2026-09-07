@@ -1,11 +1,11 @@
 {
-  "pub_date": "2026-09-07T16:17:10.3118001Z",
+  "notes": "v0.2.5: Screen-Share-Ansicht groessenveraenderlich — Zieh-Griff an der linken Kante (380-1600px), Grosz-Modus (fast Vollbild mit Auswahl-Leiste), echtes Vollbild mit Fallback wenn die WebView es ablehnt",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.2.4/Schisscord_0.2.4_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbnl0UGU4YzlKVzQ0VnorbVFlUHpmSkhYUmc1QkJFL1JmUFR6ZE51dE9KRmtHdlM1cVUydXo2Z0ZFMGdtcGxyM24rOERMV3J3VFhnQ1FvZzJOQTZQRmdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4Nzk3ODIwCWZpbGU6U2NoaXNzY29yZF8wLjIuNF94NjQtc2V0dXAuZXhlCjFDR0MrMzcyUVZXT2NpTWZzbGVVL0cvL2pWbWR4YzhNT1FUWTBmTkRmMXBoaitDa2txeSsweWE0R1cveTMzajZSc3hSVUIwYnN3NG9wNTJza0QxUURBPT0K"
+      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.2.5/Schisscord_0.2.5_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbjZCRDdGV1dUTk5KbVRCbXdlVkcvakg3WVE4N1BndWhZcDhocFZDMmg3QjJ0Q2ZBWVJZU1U1b0lZS3ZRckVXSlNPS2RqUDYxNWxVNTg3S25HSjhjMFFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4Nzk5ODI4CWZpbGU6U2NoaXNzY29yZF8wLjIuNV94NjQtc2V0dXAuZXhlClh6Sk43YkFuS25xZUJUZmdyaVRoTEYzeTdlV2lZM2dLUXBwdVlaWDZ4ZXpZWkxvV0xLcUJCaWlIdmpKQkl0dTVGc3lUYTV0YW84NEhNM1hoeFYveEN3PT0K"
     }
   },
-  "version": "0.2.4",
-  "notes": "v0.2.4: Screen-Share-Ansicht neu — eigener Stream sichtbar (Vorschau + DU-Badge + Stoppen-Button), Auswahl-Leiste mit allen Streams (eigen + Freunde gleichzeitig), Ready-Overlay statt schwarzem Bild beim Aufbau, Minimieren-Leiste"
+  "pub_date": "2026-09-07T16:50:36.6151383Z",
+  "version": "0.2.5"
 }
