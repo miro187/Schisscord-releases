@@ -1,11 +1,11 @@
 {
-  "version": "0.2.1",
+  "notes": "v0.2.2: Mikrofon-ausgefallen-Fix — alte Receiver-Handler abklemmen, Flag zuruecksetzen sobald Ton empfangen wird",
+  "pub_date": "2026-09-07T15:11:23.0902263Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.2.1/Schisscord_0.2.1_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbitZclRDZjNkcU5XQTFIWUc2d2xyUzBxbk85ZzRITGU4aUZOQXpFWU5meW80TTBtYnFxMkdQZUxvRE1vSDBjMk9UbjdHWnhlbkFkazZwRE9PeVZnTVFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NzM5MzY3CWZpbGU6U2NoaXNzY29yZF8wLjIuMV94NjQtc2V0dXAuZXhlCkJhaUdVT0hXQlBpQS9kdEVMRCtRbytad1hnR3FrdUVRWXNXK3BZaE10VHBuaEhrMWs0ZnVPbVZocGt4UkhMazZjUjNSZzJCVTFjNVA3NnVyejY1U0NRPT0K"
+      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.2.2/Schisscord_0.2.2_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbnprTEVyZXpHcGRremNUN3VMMGtHWGIrU05zQ0s5T0ovWmg3YWJnS1h5L3VNdHJGV3VTQWNvbExFLzRaaWpSVHFsOW1kSExLczZHVzBoZGhybEpTdXdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NzkzODcyCWZpbGU6U2NoaXNzY29yZF8wLjIuMl94NjQtc2V0dXAuZXhlCjBwdHQrV3BEMEczRWFjaUYyK2ZYek5EL0YwSW4zNDluelZ5bU1LL1dEWEhFdHJzSFJQT3BKSGdFaWRTcWF6LzJBcUk3cGtRUFBvRklpSkluZlFISkFBPT0K"
     }
   },
-  "notes": "v0.2.1: Einstellungen mit Konto/Audio/Relays-Tabs (Identitaet-Export, Invite-Code, Relay-Verwaltung mit Verbindungsstatus), eigener TURN eintragbar, Watchdog-Hinweise im Call, 1:1-Glare-Regel",
-  "pub_date": "2026-09-07T00:02:54.0477682Z"
+  "version": "0.2.2"
 }
