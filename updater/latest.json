@@ -1,11 +1,11 @@
 {
-  "notes": "v0.2.0: Ohne Server und Datenbank — Identitaet per Schluesselpaar (kein Login), Chats/Freunde/Gruppen lokal in IndexedDB, Signaling/Presence/Offline-Chat ueber konfigurierbare Nostr-Relays, Adden per Invite-Code, Supabase komplett entfernt",
+  "version": "0.2.1",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbnpTOTd5K3ltdEY5MDV5YXNRL1lEdlJLa3JLeklYbGNsZzBPTlFPVkNGb2x4UHlMQmdsUEdleDZDSXdhTEowN1ZpOEJ4d05FNWc2R2pZdFZiT3pBYUFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NzM3NDgxCWZpbGU6U2NoaXNzY29yZF8wLjIuMF94NjQtc2V0dXAuZXhlCm1ualBJVENyRXhKUG9rSFB0OTZxb2QzUkROU1NJTG5CaWJzTFRKcjRubmg0K3ptSVRVald4TGJzUlVuS1F5NFdIRU1DcHRTcExWWVU3eHFubmdTVUFnPT0K",
-      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.2.0/Schisscord_0.2.0_x64-setup.exe"
+      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.2.1/Schisscord_0.2.1_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbitZclRDZjNkcU5XQTFIWUc2d2xyUzBxbk85ZzRITGU4aUZOQXpFWU5meW80TTBtYnFxMkdQZUxvRE1vSDBjMk9UbjdHWnhlbkFkazZwRE9PeVZnTVFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NzM5MzY3CWZpbGU6U2NoaXNzY29yZF8wLjIuMV94NjQtc2V0dXAuZXhlCkJhaUdVT0hXQlBpQS9kdEVMRCtRbytad1hnR3FrdUVRWXNXK3BZaE10VHBuaEhrMWs0ZnVPbVZocGt4UkhMazZjUjNSZzJCVTFjNVA3NnVyejY1U0NRPT0K"
     }
   },
-  "pub_date": "2026-09-06T23:31:46.6494319Z",
-  "version": "0.2.0"
+  "notes": "v0.2.1: Einstellungen mit Konto/Audio/Relays-Tabs (Identitaet-Export, Invite-Code, Relay-Verwaltung mit Verbindungsstatus), eigener TURN eintragbar, Watchdog-Hinweise im Call, 1:1-Glare-Regel",
+  "pub_date": "2026-09-07T00:02:54.0477682Z"
 }
