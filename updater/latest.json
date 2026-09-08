@@ -1,11 +1,11 @@
 {
-  "notes": "v0.2.5: Screen-Share-Ansicht groessenveraenderlich — Zieh-Griff an der linken Kante (380-1600px), Grosz-Modus (fast Vollbild mit Auswahl-Leiste), echtes Vollbild mit Fallback wenn die WebView es ablehnt",
+  "version": "0.2.6",
+  "notes": "v0.2.6: Mikrofon-Verarbeitung wie bei Discord — Eingangsempfindlichkeit (automatisch am Ruhepegel oder manueller Schwellenwert mit Live-Pegel und Marker), Geräuschunterdrückung an/aus, Echo-Unterdrückung und automatische Verstärkung einzeln schaltbar; Änderungen werden im laufenden Call sofort neu angebunden",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.2.5/Schisscord_0.2.5_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbjZCRDdGV1dUTk5KbVRCbXdlVkcvakg3WVE4N1BndWhZcDhocFZDMmg3QjJ0Q2ZBWVJZU1U1b0lZS3ZRckVXSlNPS2RqUDYxNWxVNTg3S25HSjhjMFFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4Nzk5ODI4CWZpbGU6U2NoaXNzY29yZF8wLjIuNV94NjQtc2V0dXAuZXhlClh6Sk43YkFuS25xZUJUZmdyaVRoTEYzeTdlV2lZM2dLUXBwdVlaWDZ4ZXpZWkxvV0xLcUJCaWlIdmpKQkl0dTVGc3lUYTV0YW84NEhNM1hoeFYveEN3PT0K"
+      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.2.6/Schisscord_0.2.6_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbnprWHN2bEE3dDY2c0Q3QmJKZVpBNlNEOVhFUjNvdjRZUGdIY01yU0pQbDd6aWZCbEVDOXVsS016dGt2VnRtM0M4d2FmOVBQeitOL0Y0QTV0cnpZRVE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4ODgyNjQwCWZpbGU6U2NoaXNzY29yZF8wLjIuNl94NjQtc2V0dXAuZXhlCkN5WkxrcXBQdWFqbjNtMk9naHhHdDVLa3ZURFVDbHJuaDJjdUQ1ditrd0I0S0hVTW8rU3JHNWd2U1FoaSttYWFHa2pPd3lMalF2RlBCd3ZyN1NEVkFnPT0K"
     }
   },
-  "pub_date": "2026-09-07T16:50:36.6151383Z",
-  "version": "0.2.5"
+  "pub_date": "2026-09-08T15:50:52.0957749Z"
 }
