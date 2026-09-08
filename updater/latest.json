@@ -1,11 +1,11 @@
 {
-  "version": "0.2.8",
-  "notes": "v0.2.8: Sprachaktivitaet zuschaltbar — Mikrofon sendet nur oberhalb der Empfindlichkeits-Schwelle (400ms Nachlauf, damit Wortenden nicht abgeschnitten werden), Standard bleibt offenes Mikro",
-  "pub_date": "2026-09-08T16:29:28.9651387Z",
+  "pub_date": "2026-09-08T17:17:20.2908560Z",
+  "version": "0.2.9",
+  "notes": "v0.2.9: Voice-Stabilitaet und ein einziger Audio-Mixer\r\n\r\nTrickle ICE (Offer/Answer gehen sofort raus, Kandidaten folgen einzeln — bis zu 5s schnellerer Verbindungsaufbau), Call-ID + Generation gegen Zombie-Signale aus alten Anrufen, gestufte Recovery (ICE-Restart → Mikrofon-Pfad neu → erst dann kompletter PC-Neuaufbau) statt sofortigem Hart-Neuaufbau, Voice-Watchdog gegen „verbunden aber kein Ton\", SCTP-Fehler reissen den laufenden Call nicht mehr ab (Chat weicht auf den Server-Pfad aus, PC-Neubau nach dem Call).\r\n\r\nAudio: ein zentraler AudioContext mit einem Ausgabe-Pfad (Mix-Bus → Limiter → Master → Deafen), lineare Lautstaerken (auch unter 100 Prozent wirken jetzt), Limiter verhindert Uebersteuern bei mehreren Peers, Pegelmessung in dBFS per RMS statt FFT-Mittelwert, VAD mit Pre-Roll und Attack/Release-Rampen.",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbnl1Z2EvMmJJQUdsUnlISnZTcmIrellneWFyd29XUnN3V2dGL3FrVk42V3JLbEdkSWJjVHFxVk9mdm1oZGZIU2tTTW9TU3AvelpUUTB2Yk9LcUZabHcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4ODg0OTYwCWZpbGU6U2NoaXNzY29yZF8wLjIuOF94NjQtc2V0dXAuZXhlCmMvQStyY1RybzRla0Q1UHF0MVZYQW4xbCtTM3FuTC9hUXdza0FNK0pDZm5tZmFxZDI4YlZMaXJoK01TWmEyQ3A2Wlhqbk9wRG5SU25iR1BoVm1qcUFnPT0K",
-      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.2.8/Schisscord_0.2.8_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbjAyQjFVdk5mUFZWbkJmY004d2dFUGNXMiszMkc3Mk9Ocy9Rb2JYblVjbXJValIvTkk4aU5KYWVHZUpVd2tpQmEzdGFRSG1TQ3Zod2h0WEwzL052RWdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4ODg3ODE1CWZpbGU6U2NoaXNzY29yZF8wLjIuOV94NjQtc2V0dXAuZXhlCnljb2w3SkJxOXlGK0ZlU3pscEZEWmhBb3djQk0rM1l0aEVXejg5VnZoYXVUOG1pakxJUzR6QjNDMWNvb3J3eEJCVm9venM2MVVwZ2NZR2RReU80ckRnPT0K",
+      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.2.9/Schisscord_0.2.9_x64-setup.exe"
     }
   }
 }
