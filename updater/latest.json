@@ -1,11 +1,11 @@
 {
-  "version": "0.2.6",
-  "notes": "v0.2.6: Mikrofon-Verarbeitung wie bei Discord — Eingangsempfindlichkeit (automatisch am Ruhepegel oder manueller Schwellenwert mit Live-Pegel und Marker), Geräuschunterdrückung an/aus, Echo-Unterdrückung und automatische Verstärkung einzeln schaltbar; Änderungen werden im laufenden Call sofort neu angebunden",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.2.6/Schisscord_0.2.6_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbnprWHN2bEE3dDY2c0Q3QmJKZVpBNlNEOVhFUjNvdjRZUGdIY01yU0pQbDd6aWZCbEVDOXVsS016dGt2VnRtM0M4d2FmOVBQeitOL0Y0QTV0cnpZRVE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4ODgyNjQwCWZpbGU6U2NoaXNzY29yZF8wLjIuNl94NjQtc2V0dXAuZXhlCkN5WkxrcXBQdWFqbjNtMk9naHhHdDVLa3ZURFVDbHJuaDJjdUQ1ditrd0I0S0hVTW8rU3JHNWd2U1FoaSttYWFHa2pPd3lMalF2RlBCd3ZyN1NEVkFnPT0K"
+      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.2.7/Schisscord_0.2.7_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbjQzbnRRY3Vhb0ZtL0lZQ2lmU2hkeWw3eDF0aHVQTTdFTjhNUlNaWVFqcHJzV2VCTmxLcXpxZVRDRG1BK0JORWVsYi9kcXNObWZrRUowMG9MdGNCTlFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4ODgzOTYyCWZpbGU6U2NoaXNzY29yZF8wLjIuN194NjQtc2V0dXAuZXhlCndoM3VHYXd6YzNqTnlXTlRTV2VvUmpHTVhGSkd1TWhKb0pROE1tdCtKZ0UwWXpRUjIxVE9MVlJJcGRTalpiWEZlb0JDdEs3ZldxbXo5dmsyRHg5SUJRPT0K"
     }
   },
-  "pub_date": "2026-09-08T15:50:52.0957749Z"
+  "notes": "Mikrofon-neu-anbinden serialisieren — schnelles Umschalten mehrerer Audio-Filter erzeugt keine parallelen getUserMedia-Aufrufe mehr (keine hängenden Mikrofon-Tracks)",
+  "pub_date": "2026-09-08T16:12:52.6322870Z",
+  "version": "0.2.7"
 }
