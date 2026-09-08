@@ -1,11 +1,11 @@
 {
-  "pub_date": "2026-09-08T18:43:50.9055711Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbnowRGVZblRKZUlTK21MSkxOT0tZbmN1anlmQmlYOWx1UEwwY01adjE1d1lqRHZGdGNTNjNtVkZEdEJ6VlpwdTJTVTUzd3hZb0ZHa2ZrZVBSKzlYbVEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4ODkzMDE2CWZpbGU6U2NoaXNzY29yZF8wLjMuMF94NjQtc2V0dXAuZXhlCnF0WWZ4QU0rMXNjVGwxYmJEc2doR2VPV0ZxdGkwV2dzMGZCUnFtajNrMlFhNDVuL0FrakJhT0VlYzNGazhGR0NPOGhrcy9reDJHL2Yxai9BdktRbEJBPT0K",
-      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.3.0/Schisscord_0.3.0_x64-setup.exe"
+      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.3.1/Schisscord_0.3.1_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbit2b3RzWmRkNzdKSmx2TVBBdU00Ym1DclhESE5OMGNuOHI1U2ZZeEVBOXlLN010Q3UybEM4dWE3UTNlWFEwL0t3L1hkbU56TGZCbm93UmdrTlZ5WGdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4ODk1MjY0CWZpbGU6U2NoaXNzY29yZF8wLjMuMV94NjQtc2V0dXAuZXhlCnlObWxJWXNuOTdHRVZPZnRRQURTR1Z4N0owRTBJODFrc2czV2k0bWQwVGtoVXhDZ0dvcjd1TEV2WW5vdEFBeEVKc2pOc28yNXJZME1nVTliWitpUEJnPT0K"
     }
   },
-  "notes": "v0.3.0: Voice-Health-Modell, Watchdog-Recovery ohne Dead-End, Netzwerkwechsel-Erkennung und nahtloser Mic-Wechsel via replaceTrack",
-  "version": "0.3.0"
+  "pub_date": "2026-09-08T19:21:13.2994585Z",
+  "version": "0.3.1",
+  "notes": "v0.3.1: Fix Dauerschleife ICE-Restart (navConn RTT Listener entfernt & Watchdog Initialisierungs-Grace)"
 }
