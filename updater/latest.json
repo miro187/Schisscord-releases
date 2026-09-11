@@ -1,11 +1,11 @@
 {
+  "version": "0.3.2",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.3.1/Schisscord_0.3.1_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbit2b3RzWmRkNzdKSmx2TVBBdU00Ym1DclhESE5OMGNuOHI1U2ZZeEVBOXlLN010Q3UybEM4dWE3UTNlWFEwL0t3L1hkbU56TGZCbm93UmdrTlZ5WGdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4ODk1MjY0CWZpbGU6U2NoaXNzY29yZF8wLjMuMV94NjQtc2V0dXAuZXhlCnlObWxJWXNuOTdHRVZPZnRRQURTR1Z4N0owRTBJODFrc2czV2k0bWQwVGtoVXhDZ0dvcjd1TEV2WW5vdEFBeEVKc2pOc28yNXJZME1nVTliWitpUEJnPT0K"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbi9XTE52WFYzNzNyTFc0Ykp5cUZYQWhqYndNc3k4RnhzVC94WitGUEZzOUQ3MjdTaEVld3IrMHp2bCt5Zk4rTGZhNzVGSTZsZHJ2cWNZSWFybnhnK0E4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MTU3NDM5CWZpbGU6U2NoaXNzY29yZF8wLjMuMl94NjQtc2V0dXAuZXhlCkU1RnZUdkZoeUc3czJPa293VTNEbjR1cUxJMWw4R1RQaVkxVWpvd0hERENYVElQd2VuaGxNUWp0dk9jdnpBTnp6d3B2N0VmanNlU1lGNlIzNzJMbkRRPT0K",
+      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.3.2/Schisscord_0.3.2_x64-setup.exe"
     }
   },
-  "pub_date": "2026-09-08T19:21:13.2994585Z",
-  "version": "0.3.1",
-  "notes": "v0.3.1: Fix Dauerschleife ICE-Restart (navConn RTT Listener entfernt & Watchdog Initialisierungs-Grace)"
+  "notes": "v0.3.2: Instant Voice - Ring ohne getUserMedia-Wartezeit (Instant-Ring), Accept sofort mit parallelem Mikrofon-Aufbau (Instant-Accept + answeredWithoutAudio-Nachverhandlung), Voice-Prewarm beim ersten Klick, ICE-Pool und minimaler Jitter-Puffer fuer spuerbar geringere Latenz",
+  "pub_date": "2026-09-11T20:10:51.1299209Z"
 }
