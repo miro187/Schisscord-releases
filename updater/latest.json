@@ -1,11 +1,11 @@
 {
+  "version": "0.9.3",
+  "notes": "v0.9.3: Anruf bricht nicht mehr nach 1s ab - Zombie-Session-Erkennung (offlineSince: >15s ohne Relay = Zombie; neue Anrufe beenden Zombies automatisch, eingehende Ringe nehmen statt still abzulehnen an; callPhase meldet Zombies als idle fuer healCallState; Auto-Ende nach 40s ohne Relay) und Mikrofon blockiert den Anruf nicht mehr (klingelt trotzdem, Mikro wird automatisch nachgebunden)",
+  "pub_date": "2026-09-12T17:18:43.1373220Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.9.2/Schisscord_0.9.2_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbittTkloWWNiaHlTbndwSTE1M0pCSVlCRldLM0hxOU0yL3NNTjByNjZTZWtGMlMzT09XVkJBZnRWa2dnMUZFYXNGeGJySTlVRk56ajlyNWNhZFNaUVFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MjMzNDQ0CWZpbGU6U2NoaXNzY29yZF8wLjkuMl94NjQtc2V0dXAuZXhlCmFDZUlCS29vK09wTzBrZDZuSW5pRUtHKzh5a1RDT0tlTFlmNTJFN1c5eUVVNm02aHliakd1ZXo4V25mcnhvOWxwbXEvbGRTR0VSZDdCT0YrVzJJRUNnPT0K"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbnkrNmxGNVlYY2VrNEd2cUgzSkdOOUc1MWhmMkxqRGx0VllDVDN6MWM5MHZsRS92YUE2ZkhzWmVnczI2aXlyN1JuMmU2SDQvK1daVWViVmlzaWxCb0FnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MjMzNDg4CWZpbGU6U2NoaXNzY29yZF8wLjkuM194NjQtc2V0dXAuZXhlCkRYR1RSTWlSZVdqVXBVcG02M1Y1UW4yNmpyMFdwNGZBZzA2cWV1cFB4ajJ3aHJqTjBBVmlpOUFtZU41K0krV2FEdWQ2RmpuZDJKV2w1bCtlZmNVM0NBPT0K",
+      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.9.3/Schisscord_0.9.3_x64-setup.exe"
     }
-  },
-  "version": "0.9.2",
-  "notes": "v0.9.2: Nachrichten-Zuordnung nach Neustart repariert - Relay-Rueckstand speicherte eigene Nachrichten mit dem Freund als Absender (sender: other); jetzt sender = Event-Autor + korrekter Empfaenger, Gespraechsschluessel symmetrisch geoeffnet; einmalige Reparatur pro Unterhaltung laedt 30 Tage Historie und korrigiert falsch gespeicherte Absender (dm-repair-v2)",
-  "pub_date": "2026-09-12T17:17:41.3459666Z"
+  }
 }
