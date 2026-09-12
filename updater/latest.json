@@ -1,11 +1,11 @@
 {
-  "version": "0.9.0",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbitDUHpqakdHTWZocG91eVRFREdrVlJ4MzBtdUhLTEdXV0Z5ak1iazJ2SWE2L0RjTHI1RFE4clBkSjFQVG8ra0oxSytmRW1iV29sUHU1YWd1MEhnQUFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MjI5NzI0CWZpbGU6U2NoaXNzY29yZF8wLjkuMF94NjQtc2V0dXAuZXhlClh4NWFKMlpGZHBRY282czNBeXF2ZExRKzVjQlY0VTl0b0hHLzRpTUJBZCtzTzd4aVliN2pwaGcrL2tJSGJycG5KL1hUODkrMmwxb2hFQ3pDTU1wdURnPT0K",
-      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.9.0/Schisscord_0.9.0_x64-setup.exe"
+      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.9.1/Schisscord_0.9.1_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbjZHcE9nQko5RjBvNy9WcjlCQVNDWm9hQ3plME1pYVJBSGhCd0Z2VzU4aUV0dEpYQmNSWnBiWEt4VlpQRFF0MWQzTFZ3Uncwb1hFSkp3OGFSWjA1Q2cwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MjMxMzYxCWZpbGU6U2NoaXNzY29yZF8wLjkuMV94NjQtc2V0dXAuZXhlClhib0JJOURhc3NpeXF5ZDQvMVl3OVp4NHU4dGZIT2JtdEk2UHR4dzY0eFFNSWZnVU9ZY3M0WStQZS8zRWcyYjVQMGl3WlJWUC9jeHFWbllkbVIyWURnPT0K"
     }
   },
-  "notes": "v0.9.0: Systemton beim Bildschirm-Teilen automatisch stumm, sobald Schisscord selbst Ton ausgibt - Pegel-Tap am echten Ausgang (hinter Deafen) via audioRouter.outputRmsDb, Gate im Screen-Audio-Pfad (12ms Attack, 400ms Hold, 120ms Release), andere Apps laufen normal weiter; UI-Hinweis im Teilen-Fenster; E2E getestet (bei Stimme -108dB, ohne -29.8dB)",
-  "pub_date": "2026-09-12T16:15:35.7425361Z"
+  "version": "0.9.1",
+  "pub_date": "2026-09-12T16:42:49.2717723Z",
+  "notes": "v0.9.1: Relay-Verbindung stabilisiert - nahtlose Rotation vor dem Vercel-5-Minuten-Limit (neuer Socket mit gleicher Client-ID uebernimmt den Slot, Server ersetzt ihn ohne peer off/on, Keyframe wird nachgeschoben), Server-Ticks alle 15s + Watchdog (45s Funkstille = halb-offene Verbindung -> reconnect), Peer-off-Gnadefrist fuer Screen-Share; Produktionstest PASS (0 peer-off bei Rotation, 5/5 Frames danach, Ticks ankommen)"
 }
