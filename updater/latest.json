@@ -1,11 +1,11 @@
 {
-  "notes": "v0.8.0: Bildschirmuebertragung ueber den eigenen Relay statt WebRTC - getDisplayMedia -> WebCodecs VP8 (max 720p/15fps, 1.2 Mbps, Keyframe alle 4s) + Systemton Opus 64kbps -> AES-GCM -> WSS-Relay -> VideoDecoder/AudioDecoder -> MediaStreamTrackGenerator (Canvas-Fallback), Backpressure-Drop + Keyframe-Erzwingung nach Reconnect; WebRTC komplett aus 1:1-Anrufen entfernt (Gruppen weiter Alt-Stack); getestet per Zwei-Tab-E2E (Video lief, readyState 4) und 250KB-Frames ueber Produktions-Relay",
-  "pub_date": "2026-09-12T15:41:25.4591790Z",
+  "version": "0.9.0",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.8.0/Schisscord_0.8.0_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbjI4OTFMUjIwWm41U3c1OGl0K2xYa1lFYkdCNklQUlpJYlBJRlVmNHdla2ZNWFYyalMxR05IY2J0dmtBckFWb2lyMXBIam43SklCZkpUTXRLcUdOTlFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MjI3NjYxCWZpbGU6U2NoaXNzY29yZF8wLjguMF94NjQtc2V0dXAuZXhlCnFLbXR6OXIyYk9qN1VVdEM1YkUxVHlkaFRWNWRUbFhzQnlnTUJQNkU3YWdWWXNoMVZaVnNIeDF1YVVGRXd0UWlZZ012QzB2MGV6b1Q1VFcrN1gvMUFRPT0K"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbitDUHpqakdHTWZocG91eVRFREdrVlJ4MzBtdUhLTEdXV0Z5ak1iazJ2SWE2L0RjTHI1RFE4clBkSjFQVG8ra0oxSytmRW1iV29sUHU1YWd1MEhnQUFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MjI5NzI0CWZpbGU6U2NoaXNzY29yZF8wLjkuMF94NjQtc2V0dXAuZXhlClh4NWFKMlpGZHBRY282czNBeXF2ZExRKzVjQlY0VTl0b0hHLzRpTUJBZCtzTzd4aVliN2pwaGcrL2tJSGJycG5KL1hUODkrMmwxb2hFQ3pDTU1wdURnPT0K",
+      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.9.0/Schisscord_0.9.0_x64-setup.exe"
     }
   },
-  "version": "0.8.0"
+  "notes": "v0.9.0: Systemton beim Bildschirm-Teilen automatisch stumm, sobald Schisscord selbst Ton ausgibt - Pegel-Tap am echten Ausgang (hinter Deafen) via audioRouter.outputRmsDb, Gate im Screen-Audio-Pfad (12ms Attack, 400ms Hold, 120ms Release), andere Apps laufen normal weiter; UI-Hinweis im Teilen-Fenster; E2E getestet (bei Stimme -108dB, ohne -29.8dB)",
+  "pub_date": "2026-09-12T16:15:35.7425361Z"
 }
