@@ -1,11 +1,11 @@
 {
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.3.3/Schisscord_0.3.3_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbi82bWVNeER3T0dTK1Y4cmxxQllFWE9WTUUvc3NUOEM2S29aTVNUL0pxMVpxYXJHeEo5NzU3UE1sZzlXdFZpbDJtSmxLK1BDOEFrZmI1cDczOGxHNWdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MjA1OTkyCWZpbGU6U2NoaXNzY29yZF8wLjMuM194NjQtc2V0dXAuZXhlCkJNeGVMU0VBK1dBUm9NSEM2ZmJZWlVOM2ZNMzF4bUdBNSt4a2NJQkdJMk91d2cvYVVtenpLZGVISkkraWpKQlBDMHdiSVJiR2ZBcTE3UzdPT1RlSUJnPT0K"
+      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.3.4/Schisscord_0.3.4_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbi9aY0lBUEtNNWwzTzdCUytVSGQ4TStmaS92amdGY3BaM1ZjSy82QTNSLzZ5emxDbXF1ZFZKRzVVbk14aEp0Q00vaG9oeGY1ZlBJUFV4ZEJQZUpaRXdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MjA4OTE0CWZpbGU6U2NoaXNzY29yZF8wLjMuNF94NjQtc2V0dXAuZXhlCmJmbUdXeFM2akxKOFV2SGlVcG1WMlZ4SW03b3h0R09ZL1lRNDJVUmdVdVZZSXI4dU1FSkpndUI5ejRHaVJHY05zSWtYTHN3b2RDSGkzQjlrL1k0OEJnPT0K"
     }
   },
-  "notes": "v0.3.3: Fix Folge-Anrufe - Callee setzt Generation/Zaehler bei neuer Call-ID zurueck (Zombie-Offers wurden als veraltet verworfen), stale accept/decline/bye per Call-ID gefiltert, iceCandidatePoolSize entfernt (Pool-Kandidaten brachen den Aufbau ab dem zweiten Anruf), Kandidaten nach Call-ID gefiltert, Zombie-Call-Selbstheilung und Restart-Wiederbelebung verhindert",
-  "pub_date": "2026-09-12T09:40:08.7981649Z",
-  "version": "0.3.3"
+  "pub_date": "2026-09-12T10:29:02.3761107Z",
+  "version": "0.3.4",
+  "notes": "v0.3.4: ICE-Verbindung fixen - doppelte Signal-Sends entfernt (zweite Answer erzeugte neue ICE-Credentials, Kandidaten wurden ungueltig -> 0 Pakete / Verbinde...), ICE-Kandidaten direkt ins Offer/Answer eingebettet (Gathering-Wait max 1.5s, Trickle bleibt Backup), Connect-Watchdog verhandelt nach 6s ohne ICE-Connect erneut (max 3 Versuche)"
 }
