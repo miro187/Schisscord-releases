@@ -1,11 +1,11 @@
 {
-  "pub_date": "2026-09-12T11:14:17.4886521Z",
-  "notes": "v0.4.0: Big Change - CallEngine v4 fuer 1:1-Anrufe: eigener Signal-Namensraum (call-ring/call-accept/call-answer/call-offer/call-ice/call-decline/call-bye) und frische RTCPeerConnection pro Anruf, getrennt vom Chat-Stack; call-ring traegt das Offer mit eingebetteten ICE-Kandidaten und wird alle 2.5s bis zur Answer wiederholt, Callee antwortet idempotent (accept+answer erneut, Answer-Retry bis verbunden), Answer-Pruefung per ICE-Ufrag gegen alte Offers, Connect-Watchdog mit ICE-Restart (nur Caller), Perfect Negotiation fuer Screen-Share, Audio-Stall-Recovery; Gruppenanrufe bleiben auf dem Alt-Stack (PeerManager delegiert); WICHTIG: beide Seiten brauchen v0.4.0, aeltere Clients kennen die call-* Signale nicht",
-  "version": "0.4.0",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbncwTVhVQlNVMjZSeXNaZW1TRlRnQVRMUGRNYVNNUGkxVHVSY0h5U29rK1NzSnJDeWcvZEh4R2Z5TDd5RGdYZGVzTzBzUkVmb0pqa29YTFpuYzdtK2dVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MjExNjQ5CWZpbGU6U2NoaXNzY29yZF8wLjQuMF94NjQtc2V0dXAuZXhlCldibU9nRHZXRkxqNjJDbmtnc2NLc290Mi9CY3MvRUxMZEVwOXhyaGkvVzFYOVBvc3hDSmlybTdubURSTXdnZDZiMlV3aHFRamxlYzVvdzF3Qk96TEJBPT0K",
-      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.4.0/Schisscord_0.4.0_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbjVCSk10bVFKcUh3Y2RrTEJMaHFDY05zaGdjTlMxNkp5RlZkcGtML1c0WEVCYVBWZTFYYVJ0ME9sUWJ3MmIwVnFNS0tZZzVyeTBlVjNFOG5pTWdKMEFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MjE4OTQyCWZpbGU6U2NoaXNzY29yZF8wLjUuMF94NjQtc2V0dXAuZXhlCkRBVlV0Y0JSME5UYzVRZzNmOE9UZlJSZmthN1h2VlRQSHp6dW82cGxEeUJpckRnNFlBbWZGampvam52WTJXd3UvSGpjeEdPODZaNG9kK2N5SktpbERRPT0K",
+      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.5.0/Schisscord_0.5.0_x64-setup.exe"
     }
-  }
+  },
+  "pub_date": "2026-09-12T13:15:57.5792416Z",
+  "version": "0.5.0",
+  "notes": "v0.5.0: Anruf laeuft ohne NAT - eigener Voice-Relay statt WebRTC/ICE: neue Vercel WebSocket-Function api/relay.ts (fluid compute) leitet verschluesselte Opus-Frames weiter; Client RelayVoice mit WebCodecs Opus (20ms), AES-GCM (Schluessel aus NIP-44-Gespraechsschluessel), Jitter-Puffer, Solo-Retry/Reconnect und call-relay-reset fuer Instanz-Konvergenz; call-ring traegt kein SDP mehr, nach call-accept starten beide den Relay; WebRTC nur noch fuer Screen-Share (lazy PeerConnection); Gruppenanrufe unveraendert; getestet: WebCodecs in echtem Chrome, Zwei-Tab-E2E ueber Relay (500 Frames duplex), Produktions-Relay Pairing 939ms 50/50 Frames"
 }
