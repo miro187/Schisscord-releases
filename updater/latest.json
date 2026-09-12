@@ -1,11 +1,11 @@
 {
+  "pub_date": "2026-09-12T22:26:56.0651515Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbitWeml5dFZOaFdrSkE2YkNSTzV2T01raVRiaDJUcklKaklNRUI2MGp1YTMxbWJGTnRRRUw5aVA5MFZtM1Q2bDBJN3J5UFpDZm0vL3VoazJmYmdaREFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MjQyMDUxCWZpbGU6U2NoaXNzY29yZF8wLjExLjFfeDY0LXNldHVwLmV4ZQprMjNVNGtCTmRidFNmdVJOMzVNdjB6MFk5RWVpVjRDb29BSU9uRStKbHExOEFZbEdJVVMvQVZDZnExRHZxVFpxaWxoK1hkd3ltbmduN213eWV1Y0tCdz09Cg==",
-      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.11.1/Schisscord_0.11.1_x64-setup.exe"
+      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.11.2/Schisscord_0.11.2_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbjZOQm5VeGI1ZDZkY0szOTZCSnB6ZFVUOVRUVGhSSDVsTDVuQ0hESDVsUjlpUEtVYVVYSCtlQjZyQzNOemhISkliS1JvQi9jMDJ3S3NyaUg0K2FjT2dNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MjUyMDA0CWZpbGU6U2NoaXNzY29yZF8wLjExLjJfeDY0LXNldHVwLmV4ZQpqbXpWQVlLL25zVDZDaGRZN1YvK0xmbDF1WHVxMWc2M2NKZGVHOENRSnAybzZ2TlBzckNOZ2dNTjNZT204RkNORmoyK0Z1K0NhZGFHVzlZeVhpYjBEdz09Cg=="
     }
   },
-  "version": "0.11.1",
-  "pub_date": "2026-09-12T19:41:03.4215768Z",
-  "notes": "v0.11.1: Fix COM-Initialisierung (HRESULT) fuer Pro-App-Audio - initialize_mta().ok() statt map_err direkt (wasapi 0.24 liefert HRESULT); sonst unveraendert zu v0.11.0"
+  "version": "0.11.2",
+  "notes": "v0.11.2: Schwarzer Bildschirm beim Streamen (WebView2) gefixt - Desktop nutzt fuer das Remote-Bild immer den Canvas-Weg (kein MediaStreamTrackGenerator), Video-Decoder/-Encoder dort prefer-software (umgeht den GPU-Pfad der WebView2 abschiesst), ErrorBoundary faengt Render-Fehler mit Meldung+Reload ab statt schwarzer App, native App-Audio-Chunks in 60ms-Paketen (3x weniger IPC)"
 }
