@@ -1,11 +1,11 @@
 {
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbjBqQm90T3hzdnZBZWJKNEF5NWNSRXNtaDhtMTBCWGRIV2dhdjIrRk4wYm9IWDZna2ZMNUE3V3Z0MXZYaEp1b1J1Z2xjeFlQYjBxL2k1WktJbjY5dVFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MjQwNDAxCWZpbGU6U2NoaXNzY29yZF8wLjEwLjJfeDY0LXNldHVwLmV4ZQpkay91dWM2dDZFWDZ4akZKTlFRQTlVMTUwSlpZdmpFOFozZXhLY2N4alorOEZRSm1IZWw3ZzVkYU5MWk1IK0dDUFlCdmpFczd0UnhsYXYvNlU5Y0lCdz09Cg==",
-      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.10.2/Schisscord_0.10.2_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbitWeml5dFZOaFdrSkE2YkNSTzV2T01raVRiaDJUcklKaklNRUI2MGp1YTMxbWJGTnRRRUw5aVA5MFZtM1Q2bDBJN3J5UFpDZm0vL3VoazJmYmdaREFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MjQyMDUxCWZpbGU6U2NoaXNzY29yZF8wLjExLjFfeDY0LXNldHVwLmV4ZQprMjNVNGtCTmRidFNmdVJOMzVNdjB6MFk5RWVpVjRDb29BSU9uRStKbHExOEFZbEdJVVMvQVZDZnExRHZxVFpxaWxoK1hkd3ltbmduN213eWV1Y0tCdz09Cg==",
+      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.11.1/Schisscord_0.11.1_x64-setup.exe"
     }
   },
-  "pub_date": "2026-09-12T19:13:32.9718254Z",
-  "version": "0.10.2",
-  "notes": "v0.10.2: Echo-Subtraktion robuster + Mixer-Hinweis - Suchfenster bis 750ms (Bluetooth), 2.5s-Messfenster, Kalibrierung alle 1.5s bis Erfolg, Notbremse -13dB falls Kalibrierung scheitert; Echo-Filter-Status im Teilen-Fenster sichtbar; Mixer-Hinweis zur Pro-App-Trennung; 300ms-Loopback-Test PASS (eigener Ton -58dB, Spiel -27dB)"
+  "version": "0.11.1",
+  "pub_date": "2026-09-12T19:41:03.4215768Z",
+  "notes": "v0.11.1: Fix COM-Initialisierung (HRESULT) fuer Pro-App-Audio - initialize_mta().ok() statt map_err direkt (wasapi 0.24 liefert HRESULT); sonst unveraendert zu v0.11.0"
 }
