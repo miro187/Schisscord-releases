@@ -1,11 +1,11 @@
 {
-  "notes": "v0.10.1: Kein Haengenbleiben mehr - Auto-Ende nach 40s Relay-Verlust sendet jetzt call-bye ueber die Nostr-Signalisierung (Gegenseite beendet den Call statt haengen zu bleiben), auch beim Zombie-Aufraeumen vor neuen Anrufen; ein neuer Anruf mit neuer Call-ID vom selben Peer wird immer angenommen (haengende Session blockiert keine neuen Anrufe mehr)",
-  "pub_date": "2026-09-12T18:44:11.2066491Z",
-  "version": "0.10.1",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbjkvTW8zNzJ2WEhuSjlxZWRNUkNhQU1MbzR1QklPbi9weW1iSFBsRk1ZbU1ycjBYaktkYXZzS2dLaGc5WVlKME4zY1E2cmNBTit1UHVBTklZbC9FckFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MjM4NjIwCWZpbGU6U2NoaXNzY29yZF8wLjEwLjFfeDY0LXNldHVwLmV4ZQpYV2tBYmp2S1JhVzhGb0JYNXB3NGdNaXhlWUlsRTNUT3R2Q1FMeWVkcHRhck1XSUkrZUNNYjhodThaNUgra0psNkd0WXBxWmxxczluTStpZXFzODFBQT09Cg==",
-      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.10.1/Schisscord_0.10.1_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbjBqQm90T3hzdnZBZWJKNEF5NWNSRXNtaDhtMTBCWGRIV2dhdjIrRk4wYm9IWDZna2ZMNUE3V3Z0MXZYaEp1b1J1Z2xjeFlQYjBxL2k1WktJbjY5dVFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MjQwNDAxCWZpbGU6U2NoaXNzY29yZF8wLjEwLjJfeDY0LXNldHVwLmV4ZQpkay91dWM2dDZFWDZ4akZKTlFRQTlVMTUwSlpZdmpFOFozZXhLY2N4alorOEZRSm1IZWw3ZzVkYU5MWk1IK0dDUFlCdmpFczd0UnhsYXYvNlU5Y0lCdz09Cg==",
+      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.10.2/Schisscord_0.10.2_x64-setup.exe"
     }
-  }
+  },
+  "pub_date": "2026-09-12T19:13:32.9718254Z",
+  "version": "0.10.2",
+  "notes": "v0.10.2: Echo-Subtraktion robuster + Mixer-Hinweis - Suchfenster bis 750ms (Bluetooth), 2.5s-Messfenster, Kalibrierung alle 1.5s bis Erfolg, Notbremse -13dB falls Kalibrierung scheitert; Echo-Filter-Status im Teilen-Fenster sichtbar; Mixer-Hinweis zur Pro-App-Trennung; 300ms-Loopback-Test PASS (eigener Ton -58dB, Spiel -27dB)"
 }
