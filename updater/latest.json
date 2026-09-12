@@ -1,11 +1,11 @@
 {
-  "version": "0.9.3",
-  "notes": "v0.9.3: Anruf bricht nicht mehr nach 1s ab - Zombie-Session-Erkennung (offlineSince: >15s ohne Relay = Zombie; neue Anrufe beenden Zombies automatisch, eingehende Ringe nehmen statt still abzulehnen an; callPhase meldet Zombies als idle fuer healCallState; Auto-Ende nach 40s ohne Relay) und Mikrofon blockiert den Anruf nicht mehr (klingelt trotzdem, Mikro wird automatisch nachgebunden)",
-  "pub_date": "2026-09-12T17:18:43.1373220Z",
+  "version": "0.10.0",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbnkrNmxGNVlYY2VrNEd2cUgzSkdOOUc1MWhmMkxqRGx0VllDVDN6MWM5MHZsRS92YUE2ZkhzWmVnczI2aXlyN1JuMmU2SDQvK1daVWViVmlzaWxCb0FnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MjMzNDg4CWZpbGU6U2NoaXNzY29yZF8wLjkuM194NjQtc2V0dXAuZXhlCkRYR1RSTWlSZVdqVXBVcG02M1Y1UW4yNmpyMFdwNGZBZzA2cWV1cFB4ajJ3aHJqTjBBVmlpOUFtZU41K0krV2FEdWQ2RmpuZDJKV2w1bCtlZmNVM0NBPT0K",
-      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.9.3/Schisscord_0.9.3_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbjVpNXI5R2cwVkNqTGlTWmlUeEU3TmZ0L2tOS3NJQXo0bzdabHNnZjdRS2dzd3FYTnBLNlNDQXFqMnlKTEhKZWlFb3V0Yjh0djlISStSV0FhdnpHYXc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MjM4NDc5CWZpbGU6U2NoaXNzY29yZF8wLjEwLjBfeDY0LXNldHVwLmV4ZQpYc1IvVkJvN0ljM3NlRGhETVJ0alo3RHpDK25rYTN1QXMxem4xMlc4djBPamhZNFZjYTYxaTloT2NGR0loa3VMQlpLK054SnJ3MHoxWGw2b0M1UFlDdz09Cg==",
+      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.10.0/Schisscord_0.10.0_x64-setup.exe"
     }
-  }
+  },
+  "notes": "v0.10.0: Systemton beim Teilen - echte Echo-Subtraktion statt Ducking (Windows-Loopback ist digital: Schisscord-Ausgang wird per Korrelation delay-/pegelgenau vom Capture abgezogen, nur der eigene Ton verschwindet, Spiel/Musik laufen voll weiter; Rekalibrierung alle 15s) + Soundmixer beim Zuschauer (getrennte Regler fuer Stimme und Stream-Ton 0-200% mit Mute); E2E getestet (eigener Ton -98dB, Spiel-Ton -25dB)",
+  "pub_date": "2026-09-12T18:41:49.0367601Z"
 }
