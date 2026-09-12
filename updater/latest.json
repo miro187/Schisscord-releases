@@ -1,11 +1,11 @@
 {
-  "pub_date": "2026-09-12T14:54:38.5492005Z",
-  "notes": "v0.7.0: Voice-Filter RNNoise (WASM, lokal) + Settings-Komplettumbau im Discord-Stil - 48kHz-AudioContext, RNNoise als Bypass-Stage im Sende-Pfad mit Live-Umschaltung, drei Modi (RNNoise/Browser/Aus) inkl. Abschaltung der Browser-NS im RNNoise-Modus; Settings jetzt Vollbild mit Kategorien (Profil, Sprache und Video, Benachrichtigungen, Netzwerk, Info), Mic-Test ueber die echte Kette mit dBFS-Pegel und optionalem Mithoeren, Identitaets-Import, Desktop-Notify-Schalter, Voice-Relay-URL, Update-Suche; RNNoise im echten Chrome getestet (RESULT PASS)",
-  "version": "0.7.0",
+  "notes": "v0.8.0: Bildschirmuebertragung ueber den eigenen Relay statt WebRTC - getDisplayMedia -> WebCodecs VP8 (max 720p/15fps, 1.2 Mbps, Keyframe alle 4s) + Systemton Opus 64kbps -> AES-GCM -> WSS-Relay -> VideoDecoder/AudioDecoder -> MediaStreamTrackGenerator (Canvas-Fallback), Backpressure-Drop + Keyframe-Erzwingung nach Reconnect; WebRTC komplett aus 1:1-Anrufen entfernt (Gruppen weiter Alt-Stack); getestet per Zwei-Tab-E2E (Video lief, readyState 4) und 250KB-Frames ueber Produktions-Relay",
+  "pub_date": "2026-09-12T15:41:25.4591790Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbjRsdjV6Q0pqR1dpdjVFY2hVZStLeVlHbnhOVytnNnZBYmRvTk5VSEdpM1V2QnNwU0dZZW9hbXJoK1dOMzdRbFdVazFOQ1RCMUJtR3RnZExhVHJxTWdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MjI0ODY4CWZpbGU6U2NoaXNzY29yZF8wLjcuMF94NjQtc2V0dXAuZXhlClczbDFNSEk4bDNXMlp3UGs1L1ovclZFQytjZ3V6Y3Y5VzJPNWZlWlo0b0o5WXNDS0tYbTB5ZldsWmRTODNlRWtqUHM5dk12dllRRGROWStMQU1nT0FnPT0K",
-      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.7.0/Schisscord_0.7.0_x64-setup.exe"
+      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.8.0/Schisscord_0.8.0_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbjI4OTFMUjIwWm41U3c1OGl0K2xYa1lFYkdCNklQUlpJYlBJRlVmNHdla2ZNWFYyalMxR05IY2J0dmtBckFWb2lyMXBIam43SklCZkpUTXRLcUdOTlFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MjI3NjYxCWZpbGU6U2NoaXNzY29yZF8wLjguMF94NjQtc2V0dXAuZXhlCnFLbXR6OXIyYk9qN1VVdEM1YkUxVHlkaFRWNWRUbFhzQnlnTUJQNkU3YWdWWXNoMVZaVnNIeDF1YVVGRXd0UWlZZ012QzB2MGV6b1Q1VFcrN1gvMUFRPT0K"
     }
-  }
+  },
+  "version": "0.8.0"
 }
