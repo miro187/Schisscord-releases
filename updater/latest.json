@@ -1,11 +1,11 @@
 {
+  "notes": "v0.6.0: Discord-Design mit Brown-Theme - Server-Rail fuer Gruppen, DM-Sidebar mit Suche/Online-Punkten/Anfragen und User-Panel (Mic/Deafen/Settings) plus Voice-Status, flache Nachrichten im Discord-Stil (Avatare, Namensfarben, Gruppierung, Datums-Trenner, Hover-Loeschen, Systemhinweise mittig), Gruppen-Mitgliederliste online/offline, Call-Panel mit runden Buttons; per Headless-Chrome-Screenshots verifiziert",
+  "pub_date": "2026-09-12T14:00:15.8179856Z",
+  "version": "0.6.0",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbjVCSk10bVFKcUh3Y2RrTEJMaHFDY05zaGdjTlMxNkp5RlZkcGtML1c0WEVCYVBWZTFYYVJ0ME9sUWJ3MmIwVnFNS0tZZzVyeTBlVjNFOG5pTWdKMEFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MjE4OTQyCWZpbGU6U2NoaXNzY29yZF8wLjUuMF94NjQtc2V0dXAuZXhlCkRBVlV0Y0JSME5UYzVRZzNmOE9UZlJSZmthN1h2VlRQSHp6dW82cGxEeUJpckRnNFlBbWZGampvam52WTJXd3UvSGpjeEdPODZaNG9kK2N5SktpbERRPT0K",
-      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.5.0/Schisscord_0.5.0_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbjNoVFZVNERwS1JCdVJtTnJpQ0g5UTI1bVUwNlNDZTFaVzIwZ1hKWVpuajVBeEJpUnBVSHdJWEVjSE1ZNkJwbyswM2hUWHFuNXVPbWIzbHVBY2l5d3drPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MjIxNjA3CWZpbGU6U2NoaXNzY29yZF8wLjYuMF94NjQtc2V0dXAuZXhlCk9xZ3dtUnM1cG1DU0tUTXZlVmRYMzJLSk1Od2dWQ0Z1dHU1MTNWUXRPdmdTekxsV2hvVUY2d3JDdDdUUGFjQ3FmTGhXNUw3alRyeWpKbzJIa2FFd0NRPT0K",
+      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.6.0/Schisscord_0.6.0_x64-setup.exe"
     }
-  },
-  "pub_date": "2026-09-12T13:15:57.5792416Z",
-  "version": "0.5.0",
-  "notes": "v0.5.0: Anruf laeuft ohne NAT - eigener Voice-Relay statt WebRTC/ICE: neue Vercel WebSocket-Function api/relay.ts (fluid compute) leitet verschluesselte Opus-Frames weiter; Client RelayVoice mit WebCodecs Opus (20ms), AES-GCM (Schluessel aus NIP-44-Gespraechsschluessel), Jitter-Puffer, Solo-Retry/Reconnect und call-relay-reset fuer Instanz-Konvergenz; call-ring traegt kein SDP mehr, nach call-accept starten beide den Relay; WebRTC nur noch fuer Screen-Share (lazy PeerConnection); Gruppenanrufe unveraendert; getestet: WebCodecs in echtem Chrome, Zwei-Tab-E2E ueber Relay (500 Frames duplex), Produktions-Relay Pairing 939ms 50/50 Frames"
+  }
 }
