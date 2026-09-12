@@ -1,11 +1,11 @@
 {
-  "version": "0.10.0",
+  "notes": "v0.10.1: Kein Haengenbleiben mehr - Auto-Ende nach 40s Relay-Verlust sendet jetzt call-bye ueber die Nostr-Signalisierung (Gegenseite beendet den Call statt haengen zu bleiben), auch beim Zombie-Aufraeumen vor neuen Anrufen; ein neuer Anruf mit neuer Call-ID vom selben Peer wird immer angenommen (haengende Session blockiert keine neuen Anrufe mehr)",
+  "pub_date": "2026-09-12T18:44:11.2066491Z",
+  "version": "0.10.1",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbjVpNXI5R2cwVkNqTGlTWmlUeEU3TmZ0L2tOS3NJQXo0bzdabHNnZjdRS2dzd3FYTnBLNlNDQXFqMnlKTEhKZWlFb3V0Yjh0djlISStSV0FhdnpHYXc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MjM4NDc5CWZpbGU6U2NoaXNzY29yZF8wLjEwLjBfeDY0LXNldHVwLmV4ZQpYc1IvVkJvN0ljM3NlRGhETVJ0alo3RHpDK25rYTN1QXMxem4xMlc4djBPamhZNFZjYTYxaTloT2NGR0loa3VMQlpLK054SnJ3MHoxWGw2b0M1UFlDdz09Cg==",
-      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.10.0/Schisscord_0.10.0_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbjkvTW8zNzJ2WEhuSjlxZWRNUkNhQU1MbzR1QklPbi9weW1iSFBsRk1ZbU1ycjBYaktkYXZzS2dLaGc5WVlKME4zY1E2cmNBTit1UHVBTklZbC9FckFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MjM4NjIwCWZpbGU6U2NoaXNzY29yZF8wLjEwLjFfeDY0LXNldHVwLmV4ZQpYV2tBYmp2S1JhVzhGb0JYNXB3NGdNaXhlWUlsRTNUT3R2Q1FMeWVkcHRhck1XSUkrZUNNYjhodThaNUgra0psNkd0WXBxWmxxczluTStpZXFzODFBQT09Cg==",
+      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.10.1/Schisscord_0.10.1_x64-setup.exe"
     }
-  },
-  "notes": "v0.10.0: Systemton beim Teilen - echte Echo-Subtraktion statt Ducking (Windows-Loopback ist digital: Schisscord-Ausgang wird per Korrelation delay-/pegelgenau vom Capture abgezogen, nur der eigene Ton verschwindet, Spiel/Musik laufen voll weiter; Rekalibrierung alle 15s) + Soundmixer beim Zuschauer (getrennte Regler fuer Stimme und Stream-Ton 0-200% mit Mute); E2E getestet (eigener Ton -98dB, Spiel-Ton -25dB)",
-  "pub_date": "2026-09-12T18:41:49.0367601Z"
+  }
 }
