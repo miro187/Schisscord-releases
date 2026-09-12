@@ -1,11 +1,11 @@
 {
+  "pub_date": "2026-09-12T11:14:17.4886521Z",
+  "notes": "v0.4.0: Big Change - CallEngine v4 fuer 1:1-Anrufe: eigener Signal-Namensraum (call-ring/call-accept/call-answer/call-offer/call-ice/call-decline/call-bye) und frische RTCPeerConnection pro Anruf, getrennt vom Chat-Stack; call-ring traegt das Offer mit eingebetteten ICE-Kandidaten und wird alle 2.5s bis zur Answer wiederholt, Callee antwortet idempotent (accept+answer erneut, Answer-Retry bis verbunden), Answer-Pruefung per ICE-Ufrag gegen alte Offers, Connect-Watchdog mit ICE-Restart (nur Caller), Perfect Negotiation fuer Screen-Share, Audio-Stall-Recovery; Gruppenanrufe bleiben auf dem Alt-Stack (PeerManager delegiert); WICHTIG: beide Seiten brauchen v0.4.0, aeltere Clients kennen die call-* Signale nicht",
+  "version": "0.4.0",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.3.4/Schisscord_0.3.4_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbi9aY0lBUEtNNWwzTzdCUytVSGQ4TStmaS92amdGY3BaM1ZjSy82QTNSLzZ5emxDbXF1ZFZKRzVVbk14aEp0Q00vaG9oeGY1ZlBJUFV4ZEJQZUpaRXdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MjA4OTE0CWZpbGU6U2NoaXNzY29yZF8wLjMuNF94NjQtc2V0dXAuZXhlCmJmbUdXeFM2akxKOFV2SGlVcG1WMlZ4SW03b3h0R09ZL1lRNDJVUmdVdVZZSXI4dU1FSkpndUI5ejRHaVJHY05zSWtYTHN3b2RDSGkzQjlrL1k0OEJnPT0K"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbncwTVhVQlNVMjZSeXNaZW1TRlRnQVRMUGRNYVNNUGkxVHVSY0h5U29rK1NzSnJDeWcvZEh4R2Z5TDd5RGdYZGVzTzBzUkVmb0pqa29YTFpuYzdtK2dVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MjExNjQ5CWZpbGU6U2NoaXNzY29yZF8wLjQuMF94NjQtc2V0dXAuZXhlCldibU9nRHZXRkxqNjJDbmtnc2NLc290Mi9CY3MvRUxMZEVwOXhyaGkvVzFYOVBvc3hDSmlybTdubURSTXdnZDZiMlV3aHFRamxlYzVvdzF3Qk96TEJBPT0K",
+      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.4.0/Schisscord_0.4.0_x64-setup.exe"
     }
-  },
-  "pub_date": "2026-09-12T10:29:02.3761107Z",
-  "version": "0.3.4",
-  "notes": "v0.3.4: ICE-Verbindung fixen - doppelte Signal-Sends entfernt (zweite Answer erzeugte neue ICE-Credentials, Kandidaten wurden ungueltig -> 0 Pakete / Verbinde...), ICE-Kandidaten direkt ins Offer/Answer eingebettet (Gathering-Wait max 1.5s, Trickle bleibt Backup), Connect-Watchdog verhandelt nach 6s ohne ICE-Connect erneut (max 3 Versuche)"
+  }
 }
