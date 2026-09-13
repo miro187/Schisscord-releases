@@ -1,11 +1,11 @@
 {
-  "version": "0.12.0",
-  "notes": "v0.12.0: Dateien und Bilder bis 50 MB - Bueroklammer im Chat, lokale Speicherung in IndexedDB (files-Store, DB v2), verschluesselte Uebertragung ueber den eigenen Relay in 32-KB-Chunks (AES-GCM, HKDF-Schluessel pro Datei), Resume nach Reconnect ueber Empfaenger-Offset, file-ack + Groessenpruefung, Bild-Vorschau in der Nachricht (Klick oeffnet gross), Fortschrittsanzeige; E2E getestet: 3-MB-Datei ueber zwei Chrome-Tabs mit identischem SHA-256",
+  "pub_date": "2026-09-13T01:51:55.6193330Z",
+  "notes": "v0.12.1: Empfaenger koennen Dateien speichern (lokales Ablegen VOR Status \"fertig\", vorher blieb der Button deaktiviert), Bilder-Vorschau mit Lightbox (gross, Speichern, Schliessen) und Ladeplatzhalter, blaue klickbare Links in Nachrichten (Desktop: opener-Plugin oeffnet den Systembrowser)",
+  "version": "0.12.1",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.12.0/Schisscord_0.12.0_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbjE1RnVkT3RreEdCRkJ1TGYrWDYrbWNweFNMcUtQWWd5RjZTSzVKQ0krYlFDaG9kZXBweDlaRHBUQ2FXckR6RWthcEd5VzkwVkdkbkMxWmx0TDFLSGc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MjYyOTQ0CWZpbGU6U2NoaXNzY29yZF8wLjEyLjBfeDY0LXNldHVwLmV4ZQpWeWlGQ2l1S1RhbGpOTFFqcjAvTEVpU3BwSFIvL1JNalIrb0llaTEySHY1NUovbGVZL2QrNndwSnVLa3dTOFNqR0ljQk5mU2NLRWZuaVF0S0xlSTlCUT09Cg=="
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbjV6K294MXJFZWVxWGx3eERSUnkveHVtK2duY1QvTWhxSXJCdDBQbVZLQWd3cE5Fb1dubzdMWnhjaHVDQWtwWDlaSFdwYTVpbEVZQm9TWHpVOUtiWmdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MjY0MzA1CWZpbGU6U2NoaXNzY29yZF8wLjEyLjFfeDY0LXNldHVwLmV4ZQp6MFRmVFdpNjZySXpFb0RIR2lwRGxHSzFDdExpOFJyTGNNZnRQODBzVlZFdFdydmo2VUdld3BCVTlQSWpCYWRWakNndWQ4dTJiZGpuQmpWWmV0Q3lCUT09Cg==",
+      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.12.1/Schisscord_0.12.1_x64-setup.exe"
     }
-  },
-  "pub_date": "2026-09-13T01:29:13.1911005Z"
+  }
 }
