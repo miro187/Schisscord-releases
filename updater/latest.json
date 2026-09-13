@@ -1,11 +1,11 @@
 {
-  "pub_date": "2026-09-13T02:36:10.3075284Z",
-  "notes": "v0.12.2: Speichern im Desktop gefixt - WebView2 blockt Browser-Downloads, daher neuer Rust-Befehl save_to_downloads (Dateiname+Bytes als Raw-Payload), speichert in den Downloads-Ordner mit automatischer Namensaufloesung und zeigt den Pfad unter der Datei-Karte an; Web behaelt den Anchor-Download (jetzt korrekt im DOM)",
-  "version": "0.12.2",
+  "version": "0.12.3",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.12.2/Schisscord_0.12.2_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbi96OVpKWThSMlFObGN0QTlLS1F6UHM4QU1mY29Ub3BBblRvVXJNYlNqNFBkb25acWJ5TTMvMkxsR2YxcnhZQmt2cjNhRlV6VGVRKzdCUzA4bEEzL0FrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MjY2OTYxCWZpbGU6U2NoaXNzY29yZF8wLjEyLjJfeDY0LXNldHVwLmV4ZQpWNEFoV3VnQ2xOV0huSFJTUzdQOXBjaVRlUy9uTnF6cERDVmt0NDQ3Z1ZZZW9HZ1FnblBZNk5MZ3RhcWhjWjY2ZEs4bmFoRXJvOG1iRFBQNjczV2tCQT09Cg=="
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbjYxM216V3I4WjkvT0F0MEFDcFREelh5eG5OQ1hhWld1TUlVQ2FhM0Y1elVrZ3lFT0RVSzQ5emgwR21zYnExSlhXNjBHaVRQNnNUODFVQU93TjVIUXdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MjcwNTEzCWZpbGU6U2NoaXNzY29yZF8wLjEyLjNfeDY0LXNldHVwLmV4ZQp4ZmhuUitwUjdtN0VleHlhYWZvYkhPaFpWTVpUbUFLZTNFNTVxVnZmT2FLeHlzS3ZGWFRzNHZmemQzaGs1M2E5SnpTUzBJZmprVDRFQ1Z2MzFqWi9Edz09Cg==",
+      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.12.3/Schisscord_0.12.3_x64-setup.exe"
     }
-  }
+  },
+  "notes": "v0.12.3: Fix Raw-Payload fuer save_to_downloads - Tauri v2 akzeptiert rohe Bytes nur ueber den Request-Parameter (InvokeBody::Raw), benannter Vec<u8>-Arg schlug mit \"expected a value for key payload\" fehl",
+  "pub_date": "2026-09-13T03:35:28.6017078Z"
 }
