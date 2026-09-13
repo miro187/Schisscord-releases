@@ -1,11 +1,11 @@
 {
-  "notes": "v0.11.3: React-Endlosschleife im Soundmixer gefixt - Selector lieferte mit \"?? []\" bei fehlenden App-Quellen jedes Mal eine neue Array-Referenz (React #185, Maximum update depth exceeded); jetzt stabile EMPTY_APP_SOURCES-Konstante",
+  "version": "0.12.0",
+  "notes": "v0.12.0: Dateien und Bilder bis 50 MB - Bueroklammer im Chat, lokale Speicherung in IndexedDB (files-Store, DB v2), verschluesselte Uebertragung ueber den eigenen Relay in 32-KB-Chunks (AES-GCM, HKDF-Schluessel pro Datei), Resume nach Reconnect ueber Empfaenger-Offset, file-ack + Groessenpruefung, Bild-Vorschau in der Nachricht (Klick oeffnet gross), Fortschrittsanzeige; E2E getestet: 3-MB-Datei ueber zwei Chrome-Tabs mit identischem SHA-256",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbitpZFNrdHkxUVNicW9YYm1MTGk1L3VsOTVBaXpWcXF3aDNwTEhyVDF2NXNhTTRFeUJ2LzN2am1mSmZMUG5TYjJTcEt1WFUxUmVLMGxNajN5WWI4bHdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MjU4NjExCWZpbGU6U2NoaXNzY29yZF8wLjExLjNfeDY0LXNldHVwLmV4ZQo4Mzlka1RpeTBLb1Urcmk2cUpHcTN1eUwyVHpGQU0rSHZqb1gzS0ZkQzVudnIvenJ1VGl5OE9IZ2ZxZ1ozYnRVUVVSN3ZheDZGaTFwOHk3M0QzSWhEUT09Cg==",
-      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.11.3/Schisscord_0.11.3_x64-setup.exe"
+      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.12.0/Schisscord_0.12.0_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbjE1RnVkT3RreEdCRkJ1TGYrWDYrbWNweFNMcUtQWWd5RjZTSzVKQ0krYlFDaG9kZXBweDlaRHBUQ2FXckR6RWthcEd5VzkwVkdkbkMxWmx0TDFLSGc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MjYyOTQ0CWZpbGU6U2NoaXNzY29yZF8wLjEyLjBfeDY0LXNldHVwLmV4ZQpWeWlGQ2l1S1RhbGpOTFFqcjAvTEVpU3BwSFIvL1JNalIrb0llaTEySHY1NUovbGVZL2QrNndwSnVLa3dTOFNqR0ljQk5mU2NLRWZuaVF0S0xlSTlCUT09Cg=="
     }
   },
-  "pub_date": "2026-09-13T00:17:06.0694748Z",
-  "version": "0.11.3"
+  "pub_date": "2026-09-13T01:29:13.1911005Z"
 }
