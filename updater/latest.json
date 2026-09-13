@@ -1,11 +1,11 @@
 {
-  "version": "0.12.3",
+  "notes": "v0.12.4: Richtiger Klingelton - eingehender Anruf als klassisches Doppel-Klingeln (zwei Glockenstoesse, Zyklus 4.3s) mit Teiltonen E5+B5+Koerper-E4 und 17-Hz-Tremolo statt Piepton; Freizeichen beim Anrufer als weicher 425-Hz-Ton (1s an / 3s aus)",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbjYxM216V3I4WjkvT0F0MEFDcFREelh5eG5OQ1hhWld1TUlVQ2FhM0Y1elVrZ3lFT0RVSzQ5emgwR21zYnExSlhXNjBHaVRQNnNUODFVQU93TjVIUXdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MjcwNTEzCWZpbGU6U2NoaXNzY29yZF8wLjEyLjNfeDY0LXNldHVwLmV4ZQp4ZmhuUitwUjdtN0VleHlhYWZvYkhPaFpWTVpUbUFLZTNFNTVxVnZmT2FLeHlzS3ZGWFRzNHZmemQzaGs1M2E5SnpTUzBJZmprVDRFQ1Z2MzFqWi9Edz09Cg==",
-      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.12.3/Schisscord_0.12.3_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbjBUNW5hZVhjVjRTNVBPK1psOHVCMjlxdk5EQWR4VWtXOE9qcUZpNFQxeVhrV3RyQ2JETlRqWTFLeUJpVndCdzRFdzRZcTI3bmcxeWJmWTdyUXo5eEFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5Mjc5OTcwCWZpbGU6U2NoaXNzY29yZF8wLjEyLjRfeDY0LXNldHVwLmV4ZQo3Y3JrZ3BjZlRqMzdqR1J1dUJDbUJ2aUNTZWFzY1h3UUdRRGplWUFyY2dtZWc0bG8zaUxIVUs0YlFFb1grdGlRWmcvVkU2d2lHVXJqbVFxSDEwamtBQT09Cg==",
+      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.12.4/Schisscord_0.12.4_x64-setup.exe"
     }
   },
-  "notes": "v0.12.3: Fix Raw-Payload fuer save_to_downloads - Tauri v2 akzeptiert rohe Bytes nur ueber den Request-Parameter (InvokeBody::Raw), benannter Vec<u8>-Arg schlug mit \"expected a value for key payload\" fehl",
-  "pub_date": "2026-09-13T03:35:28.6017078Z"
+  "version": "0.12.4",
+  "pub_date": "2026-09-13T06:13:01.5021630Z"
 }
