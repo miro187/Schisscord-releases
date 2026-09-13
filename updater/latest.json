@@ -1,11 +1,11 @@
 {
-  "pub_date": "2026-09-13T01:51:55.6193330Z",
-  "notes": "v0.12.1: Empfaenger koennen Dateien speichern (lokales Ablegen VOR Status \"fertig\", vorher blieb der Button deaktiviert), Bilder-Vorschau mit Lightbox (gross, Speichern, Schliessen) und Ladeplatzhalter, blaue klickbare Links in Nachrichten (Desktop: opener-Plugin oeffnet den Systembrowser)",
-  "version": "0.12.1",
+  "pub_date": "2026-09-13T02:36:10.3075284Z",
+  "notes": "v0.12.2: Speichern im Desktop gefixt - WebView2 blockt Browser-Downloads, daher neuer Rust-Befehl save_to_downloads (Dateiname+Bytes als Raw-Payload), speichert in den Downloads-Ordner mit automatischer Namensaufloesung und zeigt den Pfad unter der Datei-Karte an; Web behaelt den Anchor-Download (jetzt korrekt im DOM)",
+  "version": "0.12.2",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbjV6K294MXJFZWVxWGx3eERSUnkveHVtK2duY1QvTWhxSXJCdDBQbVZLQWd3cE5Fb1dubzdMWnhjaHVDQWtwWDlaSFdwYTVpbEVZQm9TWHpVOUtiWmdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MjY0MzA1CWZpbGU6U2NoaXNzY29yZF8wLjEyLjFfeDY0LXNldHVwLmV4ZQp6MFRmVFdpNjZySXpFb0RIR2lwRGxHSzFDdExpOFJyTGNNZnRQODBzVlZFdFdydmo2VUdld3BCVTlQSWpCYWRWakNndWQ4dTJiZGpuQmpWWmV0Q3lCUT09Cg==",
-      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.12.1/Schisscord_0.12.1_x64-setup.exe"
+      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.12.2/Schisscord_0.12.2_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbi96OVpKWThSMlFObGN0QTlLS1F6UHM4QU1mY29Ub3BBblRvVXJNYlNqNFBkb25acWJ5TTMvMkxsR2YxcnhZQmt2cjNhRlV6VGVRKzdCUzA4bEEzL0FrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MjY2OTYxCWZpbGU6U2NoaXNzY29yZF8wLjEyLjJfeDY0LXNldHVwLmV4ZQpWNEFoV3VnQ2xOV0huSFJTUzdQOXBjaVRlUy9uTnF6cERDVmt0NDQ3Z1ZZZW9HZ1FnblBZNk5MZ3RhcWhjWjY2ZEs4bmFoRXJvOG1iRFBQNjczV2tCQT09Cg=="
     }
   }
 }
