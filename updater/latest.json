@@ -1,11 +1,11 @@
 {
-  "pub_date": "2026-09-12T22:26:56.0651515Z",
+  "notes": "v0.11.3: React-Endlosschleife im Soundmixer gefixt - Selector lieferte mit \"?? []\" bei fehlenden App-Quellen jedes Mal eine neue Array-Referenz (React #185, Maximum update depth exceeded); jetzt stabile EMPTY_APP_SOURCES-Konstante",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.11.2/Schisscord_0.11.2_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbjZOQm5VeGI1ZDZkY0szOTZCSnB6ZFVUOVRUVGhSSDVsTDVuQ0hESDVsUjlpUEtVYVVYSCtlQjZyQzNOemhISkliS1JvQi9jMDJ3S3NyaUg0K2FjT2dNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MjUyMDA0CWZpbGU6U2NoaXNzY29yZF8wLjExLjJfeDY0LXNldHVwLmV4ZQpqbXpWQVlLL25zVDZDaGRZN1YvK0xmbDF1WHVxMWc2M2NKZGVHOENRSnAybzZ2TlBzckNOZ2dNTjNZT204RkNORmoyK0Z1K0NhZGFHVzlZeVhpYjBEdz09Cg=="
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbitpZFNrdHkxUVNicW9YYm1MTGk1L3VsOTVBaXpWcXF3aDNwTEhyVDF2NXNhTTRFeUJ2LzN2am1mSmZMUG5TYjJTcEt1WFUxUmVLMGxNajN5WWI4bHdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MjU4NjExCWZpbGU6U2NoaXNzY29yZF8wLjExLjNfeDY0LXNldHVwLmV4ZQo4Mzlka1RpeTBLb1Urcmk2cUpHcTN1eUwyVHpGQU0rSHZqb1gzS0ZkQzVudnIvenJ1VGl5OE9IZ2ZxZ1ozYnRVUVVSN3ZheDZGaTFwOHk3M0QzSWhEUT09Cg==",
+      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.11.3/Schisscord_0.11.3_x64-setup.exe"
     }
   },
-  "version": "0.11.2",
-  "notes": "v0.11.2: Schwarzer Bildschirm beim Streamen (WebView2) gefixt - Desktop nutzt fuer das Remote-Bild immer den Canvas-Weg (kein MediaStreamTrackGenerator), Video-Decoder/-Encoder dort prefer-software (umgeht den GPU-Pfad der WebView2 abschiesst), ErrorBoundary faengt Render-Fehler mit Meldung+Reload ab statt schwarzer App, native App-Audio-Chunks in 60ms-Paketen (3x weniger IPC)"
+  "pub_date": "2026-09-13T00:17:06.0694748Z",
+  "version": "0.11.3"
 }
