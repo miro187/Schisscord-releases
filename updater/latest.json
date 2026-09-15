@@ -1,11 +1,11 @@
 {
-  "notes": "v0.12.4: Richtiger Klingelton - eingehender Anruf als klassisches Doppel-Klingeln (zwei Glockenstoesse, Zyklus 4.3s) mit Teiltonen E5+B5+Koerper-E4 und 17-Hz-Tremolo statt Piepton; Freizeichen beim Anrufer als weicher 425-Hz-Ton (1s an / 3s aus)",
+  "pub_date": "2026-09-15T01:28:40.4825183Z",
+  "version": "0.12.5",
+  "notes": "v0.12.5: Call-Stabilitaet - callPhase luegt nicht mehr (Overlay/Store wurde bei >15s Relay-Luecke zurueckgesetzt und das Callpanel verschwand, obwohl der Anruf lief); nahtlose Rotation adoptiert die neue Leitung erst nach Partner-Bestaetigung (kein Umschalt-Knacken/1s-Luecken mehr, verworfene Rotation laesst die alte Leitung aktiv); Peer-Aktivitaets-Watchdog ueber ka-Keepalive (keine Peer-Daten 20s trotz \"verbunden\" -> Relay-Neuverbindung); Jitter-Puffer 60->80ms",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbjBUNW5hZVhjVjRTNVBPK1psOHVCMjlxdk5EQWR4VWtXOE9qcUZpNFQxeVhrV3RyQ2JETlRqWTFLeUJpVndCdzRFdzRZcTI3bmcxeWJmWTdyUXo5eEFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5Mjc5OTcwCWZpbGU6U2NoaXNzY29yZF8wLjEyLjRfeDY0LXNldHVwLmV4ZQo3Y3JrZ3BjZlRqMzdqR1J1dUJDbUJ2aUNTZWFzY1h3UUdRRGplWUFyY2dtZWc0bG8zaUxIVUs0YlFFb1grdGlRWmcvVkU2d2lHVXJqbVFxSDEwamtBQT09Cg==",
-      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.12.4/Schisscord_0.12.4_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbjRUS0h1cnBHZUtQanU5RUI4RVdJekp6OHFyUU1WTVBuVG0yM1pkR3phUGsreHIyNzZES1RwZ05GZE5IamFCZmtLOGdJbUFMaFd0bEEwNXhvcS9DNVFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NDM1NjkzCWZpbGU6U2NoaXNzY29yZF8wLjEyLjVfeDY0LXNldHVwLmV4ZQpwRFlETU9lUXBmbGR1emMwQmxaTDExbEdjditQNjh4ejJGdGd2MUdEb280N203emRob3ZRQ08vcjU0bGdWZE9wb1NMMjg2Y25XWkpPNFplbUFTbkhCdz09Cg==",
+      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.12.5/Schisscord_0.12.5_x64-setup.exe"
     }
-  },
-  "version": "0.12.4",
-  "pub_date": "2026-09-13T06:13:01.5021630Z"
+  }
 }
