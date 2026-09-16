@@ -1,11 +1,11 @@
 {
-  "notes": "v0.13.0: Zusammen Musik hoeren - Spotify live ohne Stream: Musik-Button im Callpanel, Zuhoerer sendet call-listen-req, Teilender bestaetigt (Annehmen/Ablehnen im Panel), Rust-Find-Process(\"spotify\") findet Root-PID, bestehende WASAPI-Per-App-Aufnahme sendet als eigener Opus-Kanal (sc-src) ueber den Relay, Zuhoerer regelt Lautstaerke/Mute im Soundmixer; Signale call-listen-req/accept/end; nur Desktop",
-  "version": "0.13.0",
+  "pub_date": "2026-09-16T19:27:13.8225450Z",
+  "notes": "v0.13.1: Mini-Mixer fuer \"Zusammen Musik hoeren\" - ohne Screen-Share fehlte die Lautstaerke-Oberflaeche; jetzt erscheint unten rechts ein Panel \"Musik wird live geteilt\" mit den App-Reglern (Spotify) inkl. Mute, automatisch sobald Live-App-Audio ankommt",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.13.0/Schisscord_0.13.0_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbjZJU2JTWlhpaWVpaGplbm5Xem02eG96aC9yYlZ3dmFsZElQQTFWTyszOElGS0l0OTg2MHhCSW9pSHJaeEd0RkVlMGxIclVCbmNhSGJiS0NoS1V3cWdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NTg1NzEzCWZpbGU6U2NoaXNzY29yZF8wLjEzLjBfeDY0LXNldHVwLmV4ZQp4UTVTeUdKQkZNODY4bURLUDd6VmtuNjBHaHpMUy9MUGV2elJ0TDVpK1pjUS8rTkdnNGJqanlYU1plc1N1b2xwZGtob3NNd3JpamdRVFp1Q09WcCtCdz09Cg=="
+      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.13.1/Schisscord_0.13.1_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbjlBckpVNVoyaVBNZ1ZhR0IvM3NaR0xUNHpKcnRYbW0zWG10Z3A3d1loU0xxRVhEb0hYSk1tVkNObitaWFRndldFSjl3ZEd2L0xLS0ZCc3RjTG1Ma0FVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NTg2ODA1CWZpbGU6U2NoaXNzY29yZF8wLjEzLjFfeDY0LXNldHVwLmV4ZQpDK2MrRUNlcSt3OFpsUy9BbnhOODF5N3dyUzBBMmViZmNKbG5NZlRjd240azBJd1pMY1BpM1poeFd3MVNkcHdYcTVxQUhEbjFXa1ZpdWhmWlh2Q0xEUT09Cg=="
     }
   },
-  "pub_date": "2026-09-16T19:08:43.7160228Z"
+  "version": "0.13.1"
 }
