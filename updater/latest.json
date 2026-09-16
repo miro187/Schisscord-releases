@@ -1,11 +1,11 @@
 {
-  "notes": "v0.14.1: Kein Eigen-Ton mehr im Stream - msedgewebview2.exe (spielt Schisscords Audio) und der komplette eigene Prozessbaum werden beim Auflisten der Audio-Sessions ausgeschlossen; vorher nahm der Pro-App-Ton die Stimme des Gegenuebers wieder mit auf (\"man hoert sich selber\")",
+  "version": "0.14.0",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.14.1/Schisscord_0.14.1_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbnp2b2s2cmRPOTJqVGh2S01CamNmZlJ0UTBSNStlS2FyZTJYYkFaYWpza0R0OVRTY3NpQUtoMElXdWZUT2g0QWFVWDUyVUtvNkgrZnB4N2FyT01lRlF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NTg3ODA0CWZpbGU6U2NoaXNzY29yZF8wLjE0LjFfeDY0LXNldHVwLmV4ZQpVZ2JINUxVditLYkFGOXdsWDBFNjlCdEUvcDFCQ1JGNGlKbWNxcmNTbGRKeVo4TVJWYVU0dVRKcE1kdFN0akRMQ2JHd0pMSXdQNU8xK1dSUCtYR2pCQT09Cg=="
+      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.14.0/Schisscord_0.14.0_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbi82YUFRdm5VTHZjRkxwVmI5dGVjem1RYXRmNDgxeFZFdHJ1MlgyZXVURWlnS1lWWTZqNmZYcm1JQjFXcWZUR1Y3T29obG50bUZoUzczSXZ2ZS93Q2dBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NTg4MDgzCWZpbGU6U2NoaXNzY29yZF8wLjE0LjBfeDY0LXNldHVwLmV4ZQpoT2JkcFh0RUY5aXZmS0pKcmluWjh4TWM4anRxbi9uNUh4YUowbzVRQXdSM2xYZEduYUlKZE9LYXhaaHJ6L1N3cVoyOFhPQUZaNVdLRGFhVFZXaDdCZz09Cg=="
     }
   },
-  "version": "0.14.1",
-  "pub_date": "2026-09-16T19:43:34.8241586Z"
+  "pub_date": "2026-09-16T19:48:35.2203509Z",
+  "notes": "v0.14.0: Discord-Style Keybinds - neuer Settings-Tab \"Tastenkuerzel\" mit Recorder (Taste druecken, ESC abbricht, Konfliktpruefung, Reset pro Bindung und global), Aktionen: Mute, Push-to-Talk (halten), Push-to-Mute (halten), Deafen, Miccast, Share, Auflegen, Zusammen Musik hoeren, Ausgabe-/Mikrofon-Lautstaerke +-5%, Einstellungen oeffnen; Defaults Strg+Umschalt+M/D; in der Desktop-App globale Shortcuts via tauri-plugin-global-shortcut (wirken auch im Spiel), im Browser bei Fokus; Schalter \"Tastenkuerzel aktiv\""
 }
