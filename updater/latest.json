@@ -1,11 +1,11 @@
 {
-  "pub_date": "2026-09-15T01:28:40.4825183Z",
-  "version": "0.12.5",
-  "notes": "v0.12.5: Call-Stabilitaet - callPhase luegt nicht mehr (Overlay/Store wurde bei >15s Relay-Luecke zurueckgesetzt und das Callpanel verschwand, obwohl der Anruf lief); nahtlose Rotation adoptiert die neue Leitung erst nach Partner-Bestaetigung (kein Umschalt-Knacken/1s-Luecken mehr, verworfene Rotation laesst die alte Leitung aktiv); Peer-Aktivitaets-Watchdog ueber ka-Keepalive (keine Peer-Daten 20s trotz \"verbunden\" -> Relay-Neuverbindung); Jitter-Puffer 60->80ms",
+  "notes": "v0.13.0: Zusammen Musik hoeren - Spotify live ohne Stream: Musik-Button im Callpanel, Zuhoerer sendet call-listen-req, Teilender bestaetigt (Annehmen/Ablehnen im Panel), Rust-Find-Process(\"spotify\") findet Root-PID, bestehende WASAPI-Per-App-Aufnahme sendet als eigener Opus-Kanal (sc-src) ueber den Relay, Zuhoerer regelt Lautstaerke/Mute im Soundmixer; Signale call-listen-req/accept/end; nur Desktop",
+  "version": "0.13.0",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbjRUS0h1cnBHZUtQanU5RUI4RVdJekp6OHFyUU1WTVBuVG0yM1pkR3phUGsreHIyNzZES1RwZ05GZE5IamFCZmtLOGdJbUFMaFd0bEEwNXhvcS9DNVFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NDM1NjkzCWZpbGU6U2NoaXNzY29yZF8wLjEyLjVfeDY0LXNldHVwLmV4ZQpwRFlETU9lUXBmbGR1emMwQmxaTDExbEdjditQNjh4ejJGdGd2MUdEb280N203emRob3ZRQ08vcjU0bGdWZE9wb1NMMjg2Y25XWkpPNFplbUFTbkhCdz09Cg==",
-      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.12.5/Schisscord_0.12.5_x64-setup.exe"
+      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.13.0/Schisscord_0.13.0_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbjZJU2JTWlhpaWVpaGplbm5Xem02eG96aC9yYlZ3dmFsZElQQTFWTyszOElGS0l0OTg2MHhCSW9pSHJaeEd0RkVlMGxIclVCbmNhSGJiS0NoS1V3cWdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NTg1NzEzCWZpbGU6U2NoaXNzY29yZF8wLjEzLjBfeDY0LXNldHVwLmV4ZQp4UTVTeUdKQkZNODY4bURLUDd6VmtuNjBHaHpMUy9MUGV2elJ0TDVpK1pjUS8rTkdnNGJqanlYU1plc1N1b2xwZGtob3NNd3JpamdRVFp1Q09WcCtCdz09Cg=="
     }
-  }
+  },
+  "pub_date": "2026-09-16T19:08:43.7160228Z"
 }
