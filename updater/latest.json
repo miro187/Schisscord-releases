@@ -1,11 +1,11 @@
 {
-  "version": "0.14.0",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.14.0/Schisscord_0.14.0_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbi82YUFRdm5VTHZjRkxwVmI5dGVjem1RYXRmNDgxeFZFdHJ1MlgyZXVURWlnS1lWWTZqNmZYcm1JQjFXcWZUR1Y3T29obG50bUZoUzczSXZ2ZS93Q2dBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NTg4MDgzCWZpbGU6U2NoaXNzY29yZF8wLjE0LjBfeDY0LXNldHVwLmV4ZQpoT2JkcFh0RUY5aXZmS0pKcmluWjh4TWM4anRxbi9uNUh4YUowbzVRQXdSM2xYZEduYUlKZE9LYXhaaHJ6L1N3cVoyOFhPQUZaNVdLRGFhVFZXaDdCZz09Cg=="
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbjlWdXNlV0l3Vk96V1NpQ1Q4MjYzM2Y2WTJ5OWErYm0zbWdZK0NQVS8zdlZkMHpOR2lycU5xUVh3cjZOZk1MSjZlb1Q5SmlNL0dsUTlUeGRvVDJkRkE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NTg5Nzg1CWZpbGU6U2NoaXNzY29yZF8wLjE1LjFfeDY0LXNldHVwLmV4ZQo4M3ZhWnRJbktqZzFNVk1XQ2tNZTcrMXVGNm44VlM5eGJnbi9KVkxaa2ZjUWRMOVpxNjZXcCtlSXVLenJYbTNsL1VKeXRadHdLN29PWk8zU1ZXdVVBdz09Cg==",
+      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.15.1/Schisscord_0.15.1_x64-setup.exe"
     }
   },
-  "pub_date": "2026-09-16T19:48:35.2203509Z",
-  "notes": "v0.14.0: Discord-Style Keybinds - neuer Settings-Tab \"Tastenkuerzel\" mit Recorder (Taste druecken, ESC abbricht, Konfliktpruefung, Reset pro Bindung und global), Aktionen: Mute, Push-to-Talk (halten), Push-to-Mute (halten), Deafen, Miccast, Share, Auflegen, Zusammen Musik hoeren, Ausgabe-/Mikrofon-Lautstaerke +-5%, Einstellungen oeffnen; Defaults Strg+Umschalt+M/D; in der Desktop-App globale Shortcuts via tauri-plugin-global-shortcut (wirken auch im Spiel), im Browser bei Fokus; Schalter \"Tastenkuerzel aktiv\""
+  "pub_date": "2026-09-16T20:16:38.8278769Z",
+  "notes": "v0.15.1: Mini-Player-Fix - windows 0.62 nennt das blockierende Warten auf IAsyncOperation join() statt get() (CI-Fehler E0599); zusaetzlich CoInitializeEx(MTA) vor der SMTC-Abfrage, damit die Mediensession auf jedem Tauri-Thread funktioniert",
+  "version": "0.15.1"
 }
