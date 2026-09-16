@@ -1,11 +1,11 @@
 {
-  "pub_date": "2026-09-16T19:27:13.8225450Z",
-  "notes": "v0.13.1: Mini-Mixer fuer \"Zusammen Musik hoeren\" - ohne Screen-Share fehlte die Lautstaerke-Oberflaeche; jetzt erscheint unten rechts ein Panel \"Musik wird live geteilt\" mit den App-Reglern (Spotify) inkl. Mute, automatisch sobald Live-App-Audio ankommt",
+  "notes": "v0.14.1: Kein Eigen-Ton mehr im Stream - msedgewebview2.exe (spielt Schisscords Audio) und der komplette eigene Prozessbaum werden beim Auflisten der Audio-Sessions ausgeschlossen; vorher nahm der Pro-App-Ton die Stimme des Gegenuebers wieder mit auf (\"man hoert sich selber\")",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.13.1/Schisscord_0.13.1_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbjlBckpVNVoyaVBNZ1ZhR0IvM3NaR0xUNHpKcnRYbW0zWG10Z3A3d1loU0xxRVhEb0hYSk1tVkNObitaWFRndldFSjl3ZEd2L0xLS0ZCc3RjTG1Ma0FVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NTg2ODA1CWZpbGU6U2NoaXNzY29yZF8wLjEzLjFfeDY0LXNldHVwLmV4ZQpDK2MrRUNlcSt3OFpsUy9BbnhOODF5N3dyUzBBMmViZmNKbG5NZlRjd240azBJd1pMY1BpM1poeFd3MVNkcHdYcTVxQUhEbjFXa1ZpdWhmWlh2Q0xEUT09Cg=="
+      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.14.1/Schisscord_0.14.1_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbnp2b2s2cmRPOTJqVGh2S01CamNmZlJ0UTBSNStlS2FyZTJYYkFaYWpza0R0OVRTY3NpQUtoMElXdWZUT2g0QWFVWDUyVUtvNkgrZnB4N2FyT01lRlF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NTg3ODA0CWZpbGU6U2NoaXNzY29yZF8wLjE0LjFfeDY0LXNldHVwLmV4ZQpVZ2JINUxVditLYkFGOXdsWDBFNjlCdEUvcDFCQ1JGNGlKbWNxcmNTbGRKeVo4TVJWYVU0dVRKcE1kdFN0akRMQ2JHd0pMSXdQNU8xK1dSUCtYR2pCQT09Cg=="
     }
   },
-  "version": "0.13.1"
+  "version": "0.14.1",
+  "pub_date": "2026-09-16T19:43:34.8241586Z"
 }
