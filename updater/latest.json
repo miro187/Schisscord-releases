@@ -1,11 +1,11 @@
 {
-  "version": "0.16.0",
-  "pub_date": "2026-09-17T19:50:48.8722838Z",
-  "notes": "v0.16.0: Doppelleitung - jeder 1:1-Anruf laeuft ueber zwei parallele Relay-Strecken (Hauptraum + Backupraum '-b', versetzte Rotation A 200-240s / B 250-280s); Backup empfaengt/decodiert still, Stats-Tick prueft alle 1.5s die Frische (ka alle 4s) und haengt die Wiedergabe ohne Neuverbindung auf die lebende Strecke um; Watchdog/Zombie-Logik bewertet beide Strecken gemeinsam; Backup sendet keine call-relay-reset-Signale",
+  "pub_date": "2026-09-17T20:34:01.6546991Z",
+  "notes": "v0.17.0: Moderner Look - kontrastreichere warme Palette (Gold + Violett als Sekundaerakzent), Verlaufs-Hintergrund, glass/glass-strong Flaechen, durchgaengige Top-Bar ueber alle Spalten (App-Name, aktiver Chat, Status, Drag-Region), sanfte 140ms-Uebergaenge, rundere Scrollbars, Fokusringe, Inter/SF-Schrift",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.16.0/Schisscord_0.16.0_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbjNZZ2FnMEJVYmRUQ1dibHNneEg3aXdLYlFORzUwQzdVSnZoa3RMaXQvRUFNYlRLTXVjdGVGN3dqdjQ3N2U3ZkR6VVdqaVAwVHpCYWhIV2t6MjlzeHcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5Njc0NDExCWZpbGU6U2NoaXNzY29yZF8wLjE2LjBfeDY0LXNldHVwLmV4ZQpCRU00NTcvM3o0TzJPRmw3bmVUcnRPMUFyS1VVck83elo3SkZEZ3ZrUXVOR3F6QlhZL3U2anpyTUoyVWZnTEFYSU5OVVppc1A2dGJjQ21WQnhpVFdCQT09Cg=="
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbjVZU3RDVmxLYk80Q1pkV0xCTEhEUy95L1RDZGE5Y24vMkk0TGJyNG5PTlBzckI1RzBvRXRZMjhpRTMvYTR1d1BCQ0s5UmtaNVlUUU1ENjZTRStzOXdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5Njc3MjE1CWZpbGU6U2NoaXNzY29yZF8wLjE3LjBfeDY0LXNldHVwLmV4ZQpmMGZ0T3lZUXpQREd5UTkzRjB6UnVEazFrckFHQnRQRVVKcU9ScWEzSnNId0FBRjJTaW81elA4bzN0WVBVcWtJNFhOZkVFOUl0K2hBaHd3c0k1SGdEUT09Cg==",
+      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.17.0/Schisscord_0.17.0_x64-setup.exe"
     }
-  }
+  },
+  "version": "0.17.0"
 }
