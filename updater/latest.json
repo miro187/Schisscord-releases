@@ -1,11 +1,11 @@
 {
+  "version": "0.16.0",
+  "pub_date": "2026-09-17T19:50:48.8722838Z",
+  "notes": "v0.16.0: Doppelleitung - jeder 1:1-Anruf laeuft ueber zwei parallele Relay-Strecken (Hauptraum + Backupraum '-b', versetzte Rotation A 200-240s / B 250-280s); Backup empfaengt/decodiert still, Stats-Tick prueft alle 1.5s die Frische (ka alle 4s) und haengt die Wiedergabe ohne Neuverbindung auf die lebende Strecke um; Watchdog/Zombie-Logik bewertet beide Strecken gemeinsam; Backup sendet keine call-relay-reset-Signale",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbjlWdXNlV0l3Vk96V1NpQ1Q4MjYzM2Y2WTJ5OWErYm0zbWdZK0NQVS8zdlZkMHpOR2lycU5xUVh3cjZOZk1MSjZlb1Q5SmlNL0dsUTlUeGRvVDJkRkE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NTg5Nzg1CWZpbGU6U2NoaXNzY29yZF8wLjE1LjFfeDY0LXNldHVwLmV4ZQo4M3ZhWnRJbktqZzFNVk1XQ2tNZTcrMXVGNm44VlM5eGJnbi9KVkxaa2ZjUWRMOVpxNjZXcCtlSXVLenJYbTNsL1VKeXRadHdLN29PWk8zU1ZXdVVBdz09Cg==",
-      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.15.1/Schisscord_0.15.1_x64-setup.exe"
+      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.16.0/Schisscord_0.16.0_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbjNZZ2FnMEJVYmRUQ1dibHNneEg3aXdLYlFORzUwQzdVSnZoa3RMaXQvRUFNYlRLTXVjdGVGN3dqdjQ3N2U3ZkR6VVdqaVAwVHpCYWhIV2t6MjlzeHcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5Njc0NDExCWZpbGU6U2NoaXNzY29yZF8wLjE2LjBfeDY0LXNldHVwLmV4ZQpCRU00NTcvM3o0TzJPRmw3bmVUcnRPMUFyS1VVck83elo3SkZEZ3ZrUXVOR3F6QlhZL3U2anpyTUoyVWZnTEFYSU5OVVppc1A2dGJjQ21WQnhpVFdCQT09Cg=="
     }
-  },
-  "pub_date": "2026-09-16T20:16:38.8278769Z",
-  "notes": "v0.15.1: Mini-Player-Fix - windows 0.62 nennt das blockierende Warten auf IAsyncOperation join() statt get() (CI-Fehler E0599); zusaetzlich CoInitializeEx(MTA) vor der SMTC-Abfrage, damit die Mediensession auf jedem Tauri-Thread funktioniert",
-  "version": "0.15.1"
+  }
 }
