@@ -1,11 +1,11 @@
 {
-  "pub_date": "2026-11-07T14:25:02.1659025Z",
-  "notes": "v0.18.2: Rahmenloses Fenster mit eigener Titelleiste - keine Windows-Standardleiste mehr (decorations false, Schatten/Ecken bleiben), Minimieren/Maximieren/Schliessen im Windows-11-Stil in der Schisscord-Top-Bar (Schliessen -> Tray), Doppelklick maximiert, Drag-Region; schmale Titelleiste auch auf Login/Changelog; Top-Bar in Rail-Farbe, backgroundColor gegen weisses Aufblitzen, Abmelden (Daten loeschen) aus der Schnellleiste entfernt (nur noch in den Einstellungen), Seitenleisten-Suche heisst Freunde filtern\r\n\r\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
-  "version": "0.18.2",
+  "version": "0.18.3",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.18.2/Schisscord_0.18.2_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbjlpNEVDcDN0bUpTM0dPeWhpTFlGK2U2dnRuanNEczNKOWJoamRhK3pZdkluU05hVXRleVlFRWluZ0pBZ3Y5SUpjaWhJdXQxT2Qvd0k1a2tRQ2dyVWdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDYxNDkyCWZpbGU6U2NoaXNzY29yZF8wLjE4LjJfeDY0LXNldHVwLmV4ZQpaTGZYMitBNDdyQ0lUb2xqN3lObHhRd21LemEzSHBUUjd4N1Y5MHlBSFJsekU5K3QzSEMwekdFWnl1QmdtdkZybi9WZ3VTTmZNMmhCM0FIUGg1UVlEZz09Cg=="
+      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.18.3/Schisscord_0.18.3_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbjNQUFFvUWhGd3plQVZud0RvVVlvcjNIZjdiKzl5dHV2SS94bFpiZHlWNkphYlpPWUljblp5bTZuak94Y3ZWcHpaZHFNSFFzWVBQZkNzQlQ1SStHRGdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDYzMTI0CWZpbGU6U2NoaXNzY29yZF8wLjE4LjNfeDY0LXNldHVwLmV4ZQpRc0R3dnR5R3BsR0lIRDFJeHV6SHpPaDltZkl5WTh3QTJTaE1IQ3VTaGhpVjBBMU1xSGNKRG5FWmw1TnNuVDJiYXlFb01JYXl3Nis5UXlwazVqQ2pBdz09Cg=="
     }
-  }
+  },
+  "pub_date": "2026-11-07T14:52:14.6872152Z",
+  "notes": "v0.18.3: Tastenkuerzel funktionieren jetzt mit jeder Taste - eigener Low-Level-Tastatur-/Maus-Hook in Rust (keyhook.rs) statt RegisterHotKey: physische Scan-Codes layoutunabhaengig (auf deutscher Tastatur lagen # + ue oe ae < ^ ss vorher auf falschen Tasten), Druecken und Loslassen fuer Push-to-Talk, Taste wird nicht mehr systemweit geschluckt, wirkt im Spiel; Maus 4/5 belegbar; Kuerzel ohne Strg/Alt/Win loesen beim Tippen im eigenen Chat nicht aus; Web-Bug behoben (Umschalt-Kuerzel feuerten nie); Anzeige nach deutschem Layout, Belegung entfernbar\r\n\r\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>"
 }
