@@ -1,11 +1,11 @@
 {
+  "pub_date": "2026-11-07T14:25:02.1659025Z",
+  "notes": "v0.18.2: Rahmenloses Fenster mit eigener Titelleiste - keine Windows-Standardleiste mehr (decorations false, Schatten/Ecken bleiben), Minimieren/Maximieren/Schliessen im Windows-11-Stil in der Schisscord-Top-Bar (Schliessen -> Tray), Doppelklick maximiert, Drag-Region; schmale Titelleiste auch auf Login/Changelog; Top-Bar in Rail-Farbe, backgroundColor gegen weisses Aufblitzen, Abmelden (Daten loeschen) aus der Schnellleiste entfernt (nur noch in den Einstellungen), Seitenleisten-Suche heisst Freunde filtern\r\n\r\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+  "version": "0.18.2",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.18.1/Schisscord_0.18.1_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbnpRZlJzSVlSQ0E4Qkg4SkxSOUUrUlhLdyswaVNxTFUwYThsSjVMM202TmlLZjlVL3RZSjFaYlJQbngvRnlUUlVBaDJpVU9zYUVZdzY0NjF1WkoyVEFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDYwMDMzCWZpbGU6U2NoaXNzY29yZF8wLjE4LjFfeDY0LXNldHVwLmV4ZQpLWXBFZWM2dk1PVjFkeWZHRURCYXphdklaQzBZaEtiZ2FRSEVWL2U1SmRna2FnNk5STkwyTWN2SWhEL0RqcjQ4QnBmNVFjck1WcFdxMTh5aHlkelREZz09Cg=="
+      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.18.2/Schisscord_0.18.2_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbjlpNEVDcDN0bUpTM0dPeWhpTFlGK2U2dnRuanNEczNKOWJoamRhK3pZdkluU05hVXRleVlFRWluZ0pBZ3Y5SUpjaWhJdXQxT2Qvd0k1a2tRQ2dyVWdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDYxNDkyCWZpbGU6U2NoaXNzY29yZF8wLjE4LjJfeDY0LXNldHVwLmV4ZQpaTGZYMitBNDdyQ0lUb2xqN3lObHhRd21LemEzSHBUUjd4N1Y5MHlBSFJsekU5K3QzSEMwekdFWnl1QmdtdkZybi9WZ3VTTmZNMmhCM0FIUGg1UVlEZz09Cg=="
     }
-  },
-  "version": "0.18.1",
-  "pub_date": "2026-11-07T14:00:47.4496234Z",
-  "notes": "v0.18.1: Eigener Nostr-Relay - Klingeln, Auflegen und Online-Status kommen sofort an; Ursache fuer \"Keine Verbindung\" und falschen Online-Status: Standard-Relays kaputt (damus nicht erreichbar, nostr.band tot, nos.lol stellt ephemere Events nicht zu, 0/10); neuer Nostr-Relay im VPS-Dienst (wss://173-212-230-30.sslip.io/nostr, nur Schisscord-Kinds, Signaturpruefung, Ratenlimit, Chats 30 Tage); neue Standard-Relays (eigener + primal + offchain.pub, nos.lol/damus fuer alte Verlaeufe), gespeicherte Listen werden automatisch repariert; Presence 20s statt 45s, Timeout 50s statt 90s, offline beim Schliessen, Signale zaehlen als online; gemessen: online nach 0.5s, Klingeln nach 0.5s, Auflegen nach 0.3s\r\n\r\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>"
+  }
 }
