@@ -1,11 +1,11 @@
 {
-  "pub_date": "2026-09-17T20:34:01.6546991Z",
-  "notes": "v0.17.0: Moderner Look - kontrastreichere warme Palette (Gold + Violett als Sekundaerakzent), Verlaufs-Hintergrund, glass/glass-strong Flaechen, durchgaengige Top-Bar ueber alle Spalten (App-Name, aktiver Chat, Status, Drag-Region), sanfte 140ms-Uebergaenge, rundere Scrollbars, Fokusringe, Inter/SF-Schrift",
+  "version": "0.18.0",
+  "notes": "v0.18.0: Dauerhafter Relay + Live-Status im Gruppenanruf + neues Design - Anrufe brachen nach 30-60 Min ab, weil Vercel-Funktionen nach 300s enden (Rotation alle ~4 Min, beide Partner mussten wieder auf dieselbe Instanz); neuer dauerhafter Relay auf eigenem VPS (relay-server/, wss://173-212-230-30.sslip.io, systemd + Caddy), meldet {t:'hi',persist:true} -> keine Rotation; Leitung A ueber VPS, Leitung B ueber Vercel als Reserve (E2E: VPS mitten im Anruf beendet -> nahtlos auf B, danach zurueck auf A); Aushandlung per rv:2 in call-ring/call-accept, aeltere Clients bleiben auf Vercel; Watchdog verbindet nur noch die haengende Leitung neu; Gruppenanruf zeigt Status pro Person (verbunden/spricht/klingelt/nicht drin + Anrufen-Knopf); Voice-Presence (Badge an der Gruppe, Beitreten-Knopf, Im-Sprachanruf-Liste, im-Anruf in der Freundesliste, nur Hash statt Gruppenname); Anrufen direkt aus der Freundesliste, Schnellsuche Strg+K (Strg+Enter ruft an), einklappbares Call-Panel, grosse Karte fuer eingehende Anrufe; Graphit-Palette statt Braun; Updater installiert nicht mehr mitten im Anruf\r\n\r\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbjVZU3RDVmxLYk80Q1pkV0xCTEhEUy95L1RDZGE5Y24vMkk0TGJyNG5PTlBzckI1RzBvRXRZMjhpRTMvYTR1d1BCQ0s5UmtaNVlUUU1ENjZTRStzOXdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5Njc3MjE1CWZpbGU6U2NoaXNzY29yZF8wLjE3LjBfeDY0LXNldHVwLmV4ZQpmMGZ0T3lZUXpQREd5UTkzRjB6UnVEazFrckFHQnRQRVVKcU9ScWEzSnNId0FBRjJTaW81elA4bzN0WVBVcWtJNFhOZkVFOUl0K2hBaHd3c0k1SGdEUT09Cg==",
-      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.17.0/Schisscord_0.17.0_x64-setup.exe"
+      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.18.0/Schisscord_0.18.0_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbjI3aUlrejRHdVhZQ1Mxa2FzT0d6dGpQTmJmek8wTXVJOGpGcmFoeno1MG9vZU9WVi90UkRhakE5U2tlWXczcjBkWE5oZFRXL2FUcmZjd0JmdXY2Z3dFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDU4NDY5CWZpbGU6U2NoaXNzY29yZF8wLjE4LjBfeDY0LXNldHVwLmV4ZQo1cmN5YTA2RnVDV2xpaFZiejhTM25YRjY2dndjWmFkKzkvT2JGT2FzRkdqdGx2M3VVUWVyeXB0TVhBclI4MTI0WTlQUWpNbi9QS2JXOTBNY0F0bnFDdz09Cg=="
     }
   },
-  "version": "0.17.0"
+  "pub_date": "2026-11-07T13:34:44.1996462Z"
 }
