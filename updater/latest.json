@@ -1,11 +1,11 @@
 {
-  "version": "0.18.0",
-  "notes": "v0.18.0: Dauerhafter Relay + Live-Status im Gruppenanruf + neues Design - Anrufe brachen nach 30-60 Min ab, weil Vercel-Funktionen nach 300s enden (Rotation alle ~4 Min, beide Partner mussten wieder auf dieselbe Instanz); neuer dauerhafter Relay auf eigenem VPS (relay-server/, wss://173-212-230-30.sslip.io, systemd + Caddy), meldet {t:'hi',persist:true} -> keine Rotation; Leitung A ueber VPS, Leitung B ueber Vercel als Reserve (E2E: VPS mitten im Anruf beendet -> nahtlos auf B, danach zurueck auf A); Aushandlung per rv:2 in call-ring/call-accept, aeltere Clients bleiben auf Vercel; Watchdog verbindet nur noch die haengende Leitung neu; Gruppenanruf zeigt Status pro Person (verbunden/spricht/klingelt/nicht drin + Anrufen-Knopf); Voice-Presence (Badge an der Gruppe, Beitreten-Knopf, Im-Sprachanruf-Liste, im-Anruf in der Freundesliste, nur Hash statt Gruppenname); Anrufen direkt aus der Freundesliste, Schnellsuche Strg+K (Strg+Enter ruft an), einklappbares Call-Panel, grosse Karte fuer eingehende Anrufe; Graphit-Palette statt Braun; Updater installiert nicht mehr mitten im Anruf\r\n\r\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.18.0/Schisscord_0.18.0_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbjI3aUlrejRHdVhZQ1Mxa2FzT0d6dGpQTmJmek8wTXVJOGpGcmFoeno1MG9vZU9WVi90UkRhakE5U2tlWXczcjBkWE5oZFRXL2FUcmZjd0JmdXY2Z3dFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDU4NDY5CWZpbGU6U2NoaXNzY29yZF8wLjE4LjBfeDY0LXNldHVwLmV4ZQo1cmN5YTA2RnVDV2xpaFZiejhTM25YRjY2dndjWmFkKzkvT2JGT2FzRkdqdGx2M3VVUWVyeXB0TVhBclI4MTI0WTlQUWpNbi9QS2JXOTBNY0F0bnFDdz09Cg=="
+      "url": "https://github.com/miro187/Schisscord-releases/releases/download/v0.18.1/Schisscord_0.18.1_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYmM1NWI2TFBrbnpRZlJzSVlSQ0E4Qkg4SkxSOUUrUlhLdyswaVNxTFUwYThsSjVMM202TmlLZjlVL3RZSjFaYlJQbngvRnlUUlVBaDJpVU9zYUVZdzY0NjF1WkoyVEFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDYwMDMzCWZpbGU6U2NoaXNzY29yZF8wLjE4LjFfeDY0LXNldHVwLmV4ZQpLWXBFZWM2dk1PVjFkeWZHRURCYXphdklaQzBZaEtiZ2FRSEVWL2U1SmRna2FnNk5STkwyTWN2SWhEL0RqcjQ4QnBmNVFjck1WcFdxMTh5aHlkelREZz09Cg=="
     }
   },
-  "pub_date": "2026-11-07T13:34:44.1996462Z"
+  "version": "0.18.1",
+  "pub_date": "2026-11-07T14:00:47.4496234Z",
+  "notes": "v0.18.1: Eigener Nostr-Relay - Klingeln, Auflegen und Online-Status kommen sofort an; Ursache fuer \"Keine Verbindung\" und falschen Online-Status: Standard-Relays kaputt (damus nicht erreichbar, nostr.band tot, nos.lol stellt ephemere Events nicht zu, 0/10); neuer Nostr-Relay im VPS-Dienst (wss://173-212-230-30.sslip.io/nostr, nur Schisscord-Kinds, Signaturpruefung, Ratenlimit, Chats 30 Tage); neue Standard-Relays (eigener + primal + offchain.pub, nos.lol/damus fuer alte Verlaeufe), gespeicherte Listen werden automatisch repariert; Presence 20s statt 45s, Timeout 50s statt 90s, offline beim Schliessen, Signale zaehlen als online; gemessen: online nach 0.5s, Klingeln nach 0.5s, Auflegen nach 0.3s\r\n\r\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>"
 }
